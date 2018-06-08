@@ -1,0 +1,2260 @@
+/*
+1. General setings
+2. Home - Main Page
+3. Home - ICO Landing Page
+4. Home - ICO Landing Page 2
+5. About Us
+6. How it works
+7. Services
+8. Blog
+9. ICO Listing Grid
+
+*/
+
+/* 1. General setings */ 
+.padding_80 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.padding_30 {
+    padding: 30px;
+}
+.no-padding {
+    padding: 0 !important;
+}
+.spacer_10 {
+    height: 10px;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.spacer_15 {
+    height: 15px;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.spacer_20 {
+    height: 20px;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.spacer_30 {
+    height: 30px;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.spacer_40 {
+    height: 40px;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.spacer_50 {
+    height: 50px;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.spacer_70 {
+    height: 70px;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.spacer_80 {
+    height: 80px;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.float-left {
+    float: left;
+}
+.text-white {
+    color: #fff;
+}
+
+/* 2. Home - Main Page */
+.wishlist_table .add_to_cart, 
+a.add_to_wishlist.button.alt { 
+    border-radius: 16px; 
+    -moz-border-radius: 16px; 
+    -webkit-border-radius: 16px; 
+}
+img.wp-smiley,
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+#yith-quick-view-modal .yith-wcqv-main{background:#ffffff;}
+#yith-quick-view-close{color:#cdcdcd;}
+#yith-quick-view-close:hover{color:#ff0000;}
+footer .footer{
+            background-color: !important;
+        }
+body .cryptic_preloader_holder{
+        background-color: 1;
+    }
+.is_header_semitransparent .navbar-default {
+    background: rgba(35, 35, 49, 0.2) none repeat scroll 0 0;
+}
+.is_header_semitransparent .sticky-wrapper.is-sticky .navbar-default {
+    background: rgba(35, 35, 49, 0.9) none repeat scroll 0 0;
+}.back-to-top {
+        background: transparent;
+        color: #ffffff;
+    }
+    .back-to-top:hover {
+        background: transparent;
+        color: #ffffff;
+    }.breadcrumb a::after {
+      content: "/";
+}
+body{
+    background: #ffffff;
+}
+.logo img,
+.navbar-header .logo img {
+    max-width: 140px;
+}
+::selection{
+    color: #ffffff;
+    background: #ffd600;
+}
+::-moz-selection { /* Code for Firefox */
+    color: #ffffff;
+    background: #ffd600;
+}
+
+a{
+    color: #ffd600;
+}
+a:focus,
+a:visited,
+a:hover{
+    color: #e5c000;
+}
+
+/*------------------------------------------------------------------
+    COLOR
+------------------------------------------------------------------*/
+a, 
+a:hover, 
+a:focus,
+.copyright a,
+.copyright a:hover,
+.mt_car--tax-type,
+span.amount,
+.widget_popular_recent_tabs .nav-tabs li.active a,
+.widget_product_categories .cat-item:hover,
+.widget_product_categories .cat-item a:hover,
+.widget_archive li:hover,
+.widget_archive li a:hover,
+.widget_categories .cat-item:hover,
+.widget_categories li a:hover,
+.pricing-table.recomended .button.solid-button, 
+.pricing-table .table-content:hover .button.solid-button,
+.pricing-table.Recommended .button.solid-button, 
+.pricing-table.recommended .button.solid-button, 
+#sync2 .owl-item.synced .post_slider_title,
+#sync2 .owl-item:hover .post_slider_title,
+#sync2 .owl-item:active .post_slider_title,
+.pricing-table.recomended .button.solid-button, 
+.pricing-table .table-content:hover .button.solid-button,
+.testimonial-author,
+.testimonials-container blockquote::before,
+.testimonials-container blockquote::after,
+.post-author > a,
+h2 span,
+label.error,
+.author-name,
+.prev-next-post a:hover,
+.prev-text,
+.wpb_button.btn-filled:hover,
+.next-text,
+.social ul li a:hover i,
+.wpcf7-form span.wpcf7-not-valid-tip,
+.text-dark .statistics .stats-head *,
+.wpb_button.btn-filled,
+footer ul.menu li.menu-item a:hover,
+.widget_meta a:hover,
+.widget_pages a:hover,
+.blogloop-v1 .post-name a:hover,
+.blogloop-v2 .post-name a:hover,
+.blogloop-v3 .post-name a:hover,
+.blogloop-v4 .post-name a:hover,
+.blogloop-v5 .post-name a:hover,
+.post-category-comment-date span a:hover,
+.post-category-comment-date span:hover,
+.list-view .post-details .post-category-comment-date i:hover,
+.list-view .post-details .post-category-comment-date a:hover,
+.simple_sermon_content_top h4,
+.page_404_v1 h1,
+.mt_cars--single-main-pic .post-name > a,
+.widget_recent_comments li:hover a,
+.list-view .post-details .post-name a:hover,
+.blogloop-v5 .post-details .post-sticky-label i,
+header.header2 .header-info-group .header_text_title strong,
+.widget_recent_entries_with_thumbnail li:hover a,
+.widget_recent_entries li a:hover,
+.blogloop-v1 .post-details .post-sticky-label i,
+.blogloop-v2 .post-details .post-sticky-label i,
+.blogloop-v3 .post-details .post-sticky-label i,
+.blogloop-v4 .post-details .post-sticky-label i,
+.blogloop-v5 .post-details .post-sticky-label i,
+.mt_listing--price-day.mt_listing--price .mt_listing_price,
+.mt_listing--price-day.mt_listing--price .mt_listing_currency,
+.mt_listing--price-day.mt_listing--price .mt_listing_per,
+.error-404.not-found h1,
+.header-info-group i,
+.related.products ul.products li.product .button,         
+.error-404.not-found h1,
+.header-info-group i,
+body .lms-course-infos i,
+.action-expand::after,
+.list-view .post-details .post-excerpt .more-link:hover,
+.header4 header .right-side-social-actions .social-links a:hover i,
+#navbar .menu-item.selected > a, #navbar .menu-item:hover > a,
+.sidebar-content .widget_nav_menu li a:hover,
+.blog-posts-shortcode-v2 .post-details .post-category {
+    color: #ffd600;
+}
+
+/* NAVIGATION */
+.navstyle-v8.header3 #navbar .menu > .menu-item.current-menu-item > a, 
+.navstyle-v8.header3 #navbar .menu > .menu-item:hover > a,
+.navstyle-v1.header3 #navbar .menu > .menu-item:hover > a,
+.navstyle-v1.header2 #navbar .menu > .menu-item:hover > a,
+#navbar ul.sub-menu li a:hover,
+.navstyle-v4 #navbar .menu > .menu-item.current-menu-item > a,
+.navstyle-v4 #navbar .menu > .menu-item:hover > a,
+.navstyle-v3 #navbar .menu > .menu-item.current-menu-item > a, 
+.navstyle-v3 #navbar .menu > .menu-item:hover > a,
+.navstyle-v3 #navbar .menu > .menu-item > a::before, 
+.navstyle-v3 #navbar .menu > .menu-item > a::after,
+.navstyle-v2 #navbar .menu > .menu-item.current-menu-item > a,
+.navstyle-v2 #navbar .menu > .menu-item:hover > a,
+#navbar .menu-item.selected > a, #navbar .menu-item:hover > a{
+    color: #ffd600;
+}
+.navstyle-v2.header3 #navbar .menu > .menu-item > a::before,
+.navstyle-v2.header3 #navbar .menu > .menu-item > a::after,
+.navstyle-v8 #navbar .menu > .menu-item > a::before,
+.navstyle-v7 #navbar .menu > .menu-item .sub-menu > .menu-item > a:hover,
+.navstyle-v7 #navbar .menu > .menu-item.current_page_item > a,
+.navstyle-v7 #navbar .menu > .menu-item.current-menu-item > a,
+.navstyle-v7 #navbar .menu > .menu-item:hover > a,
+.navstyle-v6 #navbar .menu > .menu-item.current_page_item > a,
+.navstyle-v6 #navbar .menu > .menu-item.current-menu-item > a,
+.navstyle-v6 #navbar .menu > .menu-item:hover > a,
+.navstyle-v5 #navbar .menu > .menu-item.current_page_item > a, 
+.navstyle-v5 #navbar .menu > .menu-item.current-menu-item > a,
+.navstyle-v5 #navbar .menu > .menu-item:hover > a,
+.navstyle-v2 #navbar .menu > .menu-item > a::before, 
+.navstyle-v2 #navbar .menu > .menu-item > a::after{
+    background: #ffd600;
+}
+/* Color Dark / Hovers */
+footer .footer-top .menu li.menu-item a:hover,
+.related-posts .post-name:hover a{
+    color: #e5c000 !important;
+}
+/*------------------------------------------------------------------
+    BACKGROUND + BACKGROUND-COLOR
+------------------------------------------------------------------*/
+.tagcloud > a:hover,
+.modeltheme-icon-search,
+.wpb_button::after,
+.rotate45,
+.latest-posts .post-date-day,
+.latest-posts h3, 
+.latest-tweets h3, 
+.latest-videos h3,
+.button.solid-button, 
+button.vc_btn,
+.pricing-table.recomended .table-content, 
+.pricing-table .table-content:hover,
+.pricing-table.Recommended .table-content, 
+.pricing-table.recommended .table-content, 
+.pricing-table.recomended .table-content, 
+.pricing-table .table-content:hover,
+.block-triangle,
+.owl-theme .owl-controls .owl-page span,
+body .vc_btn.vc_btn-blue, 
+body a.vc_btn.vc_btn-blue, 
+body button.vc_btn.vc_btn-blue,
+.pagination .page-numbers.current,
+.pagination .page-numbers:hover,
+#subscribe > button[type='submit'],
+.social-sharer > li:hover,
+.prev-next-post a:hover .rotate45,
+.masonry_banner.default-skin,
+.form-submit input,
+.member-header::before, 
+.member-header::after,
+.member-footer .social::before, 
+.member-footer .social::after,
+.subscribe > button[type='submit'],
+.no-results input[type='submit'],
+h3#reply-title::after,
+.newspaper-info,
+header.header1 .header-nav-actions .shop_cart,
+.categories_shortcode .owl-controls .owl-buttons i:hover,
+.widget-title:after,
+h2.heading-bottom:after,
+.single .content-car-heading:after,
+.wpb_content_element .wpb_accordion_wrapper .wpb_accordion_header.ui-state-active,
+#primary .main-content ul li:not(.rotate45)::before,
+.wpcf7-form .wpcf7-submit,
+ul.ecs-event-list li span,
+#contact_form2 .solid-button.button,
+.navbar-default .navbar-toggle .icon-bar,
+.modeltheme-search .search-submit,
+.pricing-table.recommended .table-content .title-pricing,
+.pricing-table .table-content:hover .title-pricing,
+.pricing-table.recommended .button.solid-button,
+.blogloop-v5 .absolute-date-badge span,
+.post-category-date a[rel="tag"],
+.cryptic_preloader_holder,
+#navbar .mt-icon-list-item:hover,
+.mt_car--single-gallery.mt_car--featured-single-gallery:hover,
+footer .mc4wp-form-fields input[type="submit"],
+.modeltheme-pagination.pagination .page-numbers.current,
+.pricing-table .table-content:hover .button.solid-button,
+footer .footer-top .menu .menu-item a::before,
+.mt-car-search .submit .form-control,
+.blogloop-v4.list-view .post-date,
+header .top-header,
+.navbar-toggle .icon-bar,
+.back-to-top,
+ .woocommerce #respond input#submit, 
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button,
+table.compare-list .add-to-cart td a,
+body.woocommerce ul.products li.product .onsale,
+.woocommerce #respond input#submit.alt, 
+.woocommerce a.button.alt, 
+.woocommerce button.button.alt, 
+.woocommerce input.button.alt,
+.woocommerce a.remove:hover,
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+.woocommerce nav.woocommerce-pagination ul li a:focus, 
+.woocommerce nav.woocommerce-pagination ul li a:hover, 
+.woocommerce nav.woocommerce-pagination ul li span.current,
+.woocommerce.single-product .wishlist-container .yith-wcwl-wishlistaddedbrowse,
+.woocommerce #respond input#submit.alt.disabled, 
+.woocommerce #respond input#submit.alt.disabled:hover, 
+.woocommerce #respond input#submit.alt:disabled, 
+.woocommerce #respond input#submit.alt:disabled:hover, 
+.woocommerce #respond input#submit.alt[disabled]:disabled, 
+.woocommerce #respond input#submit.alt[disabled]:disabled:hover, 
+.woocommerce a.button.alt.disabled, 
+.woocommerce a.button.alt.disabled:hover, 
+.woocommerce a.button.alt:disabled, 
+.woocommerce a.button.alt:disabled:hover, 
+.woocommerce a.button.alt[disabled]:disabled, 
+.woocommerce a.button.alt[disabled]:disabled:hover, 
+.woocommerce button.button.alt.disabled, 
+.woocommerce button.button.alt.disabled:hover, 
+.woocommerce button.button.alt:disabled, 
+.woocommerce button.button.alt:disabled:hover, 
+.woocommerce button.button.alt[disabled]:disabled, 
+.woocommerce button.button.alt[disabled]:disabled:hover, 
+.woocommerce input.button.alt.disabled, 
+.woocommerce input.button.alt.disabled:hover, 
+.woocommerce input.button.alt:disabled, 
+.woocommerce input.button.alt:disabled:hover, 
+.woocommerce input.button.alt[disabled]:disabled, 
+.woocommerce input.button.alt[disabled]:disabled:hover,
+.hover-components .component a:hover,
+.related.products span.onsale,
+table.compare-list .add-to-cart td a,
+.shop_cart,
+.back-to-top,
+#listings_metaboxs input[type="submit"],
+.mt_listing--single-price-inner,
+input.wpcf7-form-control.wpcf7-submit,
+.post-password-form input[type="submit"],
+.widget.widget_product_search button,
+.search-form input[type="submit"],
+.wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a,
+.post-password-form input[type='submit'] {
+    background: #ffd600;
+}
+body .courses-list .featured_image_courses .course_badge i,
+body .courses-list .shortcode_course_content,
+.single-product.woocommerce span.onsale,
+.header_mini_cart .button.wc-forward,
+.header_mini_cart .button.checkout,
+.woocommerce ul.products li.product .onsale, 
+body .woocommerce ul.products li.product .onsale, 
+body .woocommerce ul.products li.product .onsale,
+.blog-posts-shortcode .time-n-date {
+        background-color: #ffd600 !important;
+}
+.modeltheme-search.modeltheme-search-open .modeltheme-icon-search, 
+.no-js .modeltheme-search .modeltheme-icon-search,
+.modeltheme-icon-search:hover,
+.latest-posts .post-date-month,
+.button.solid-button:hover,
+body .vc_btn.vc_btn-blue:hover, 
+body a.vc_btn.vc_btn-blue:hover, 
+.post-category-date a[rel="tag"]:hover,
+.single-post-tags > a:hover,
+body button.vc_btn.vc_btn-blue:hover,
+.blogloop-v5 .absolute-date-badge span:hover,
+.mt-car-search .submit .form-control:hover,
+#contact_form2 .solid-button.button:hover,
+.subscribe > button[type='submit']:hover,
+footer .mc4wp-form-fields input[type="submit"]:hover,
+.no-results.not-found .search-submit:hover,
+#listings_metaboxs input[type="submit"]:hover,
+.no-results input[type='submit']:hover,
+ul.ecs-event-list li span:hover,
+.pricing-table.recommended .table-content .price_circle,
+.pricing-table .table-content:hover .price_circle,
+#modal-search-form .modal-content input.search-input,
+.wpcf7-form .wpcf7-submit:hover,
+.form-submit input:hover,
+.blogloop-v4.list-view .post-date a:hover,
+.pricing-table.recommended .button.solid-button:hover,
+.search-form input[type="submit"]:hover,
+.modeltheme-pagination.pagination .page-numbers.current:hover,
+.error-return-home.text-center > a:hover,
+.pricing-table .table-content:hover .button.solid-button:hover,
+.post-password-form input[type="submit"]:hover,
+.navbar-toggle .navbar-toggle:hover .icon-bar,
+.back-to-top:hover,
+.woocommerce #respond input#submit:hover, 
+.woocommerce a.button:hover, 
+.widget.widget_product_search button:hover,
+.woocommerce button.button:hover, 
+.woocommerce input.button:hover,
+table.compare-list .add-to-cart td a:hover,
+.woocommerce #respond input#submit.alt:hover, 
+.woocommerce a.button.alt:hover, 
+.woocommerce button.button.alt:hover, 
+.woocommerce input.button.alt:hover,
+.post-password-form input[type='submit']:hover {
+    background: #e5c000;
+}
+.tagcloud > a:hover{
+    background: #e5c000 !important;
+}
+
+.hover-components .component a,
+.woocommerce ul.cart_list li a::before, 
+.woocommerce ul.product_list_widget li a::before,
+.flickr_badge_image a::after,
+.thumbnail-overlay,
+.portfolio-hover,
+.pastor-image-content .details-holder,
+.item-description .holder-top,
+blockquote::before {
+    background: rgba(255, 214, 0, 0.7);
+}
+
+/*------------------------------------------------------------------
+    BORDER-COLOR
+------------------------------------------------------------------*/
+.comment-form input, 
+.comment-form textarea,
+.author-bio,
+blockquote,
+.widget_popular_recent_tabs .nav-tabs > li.active,
+body .left-border, 
+body .right-border,
+body .member-header,
+body .member-footer .social,
+body .button[type='submit'],
+.navbar ul li ul.sub-menu,
+.wpb_content_element .wpb_tabs_nav li.ui-tabs-active,
+#contact-us .form-control:focus,
+.sale_banner_holder:hover,
+.testimonial-img,
+.wpcf7-form input:focus, 
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+.woocommerce .woocommerce-info, 
+.woocommerce .woocommerce-message,
+.header_mini_cart .woocommerce .widget_shopping_cart .total, 
+.header_mini_cart .woocommerce.widget_shopping_cart .total,
+.header_mini_cart,
+.header_mini_cart.visible_cart,
+.wpcf7-form textarea:focus,
+.navbar-default .navbar-toggle:hover, 
+.header_search_form,
+body .course-review-head, body .course-content > h3:first-child, body .course-curriculum-title,
+.list-view .post-details .post-excerpt .more-link:hover{
+    border-color: #ffd600;
+}
+
+header .navbar-toggle,
+.navbar-default .navbar-toggle{
+    border: 3px solid #ffd600;
+}
+.fixed-sidebar-menu{
+    background-color:rgba(37,37,37,0.95);
+}
+#navbar .menu-item > a, .navbar-nav .search_products a, .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a{
+    color:#ffffff;
+}
+body #navbar .menu-item.selected > a, body #navbar .menu-item:hover > a{
+    color:#ffd600;
+}
+#navbar .sub-menu, .navbar ul li ul.sub-menu{
+    background-color:#f7f7f7;
+}
+#navbar ul.sub-menu li a{
+    color:#252525;
+}
+#navbar ul.sub-menu li a:hover{
+    background-color:transparent;
+}
+body{
+    font-family:Montserrat;
+}
+h1,h1 span{
+    font-family:Montserrat;
+    line-height:36px;
+    font-size:36px;
+}
+h2{
+    font-family:Montserrat;
+    line-height:30px;
+    font-size:30px;
+}
+h3{
+    font-family:Montserrat;
+    line-height:24px;
+    font-size:24px;
+}
+h4{
+    font-family:Montserrat;
+    line-height:18px;
+    font-size:18px;
+}
+h5{
+    font-family:Montserrat;
+    line-height:14px;
+    font-size:14px;
+}
+h6{
+    font-family:Montserrat;
+    line-height:12px;
+    font-size:12px;
+}
+input,textarea{
+    font-family:Montserrat;
+}
+input[type="submit"]{
+    /* font-family:Montserrat; */
+}
+#modeltheme-main-head.navbar-default{
+    background-color:#252525;
+}
+.fixed-sidebar-menu{
+    background-color:rgba(255,255,255,0.95);
+}
+footer .footer-top{
+    background-size:cover;
+    background-image:url('wp-content/uploads/2018/02/footer.jpg');
+}
+footer .footer-top h1.widget-title, footer .footer-top h3.widget-title, footer .footer-top .widget-title{
+    color:#ffffff;
+}
+.footer-row-1{
+    padding-top:80px;
+    padding-bottom:80px;
+}
+.footer-row-1{
+    margin-top:0;
+    margin-bottom:0;
+}
+.footer-row-1{
+    border-top:0px solid #515b5e;
+    border-bottom:0px solid #515b5e;
+    border-left:0px solid #515b5e;
+    border-right:0px solid #515b5e;
+}
+footer .footer{
+    background-color:#202020;
+}
+footer .footer h1.widget-title, footer .footer h3.widget-title, footer .footer .widget-title{
+    color:#ffffff;
+}
+.single article .article-content p,p,.post-excerpt{
+    font-family:Montserrat;
+    line-height:25px;
+    color:#a7a7a7;
+    font-size:15px;
+}
+.wpb_animate_when_almost_visible {
+     opacity: 1;
+}
+.ccpw-widget{
+    background-color:#fcfcfc;
+} 
+.ccpw-widget .ccpw_table tr {
+    background-color:#fcfcfc;
+}  
+.ccpw_table span.name {
+    color:#000;
+}   
+.ccpw_table span.coin_symbol {
+    color:#000;
+}
+.ccpw_table th{
+    color:#000;
+}
+.ccpw_table span.price {
+    color:#000;
+} 
+.ccpw_table .price-value{
+    color:#000;
+}
+.mt-icon-list-item:hover i, 
+.mt-icon-list-item:hover {
+    color:  !important;
+}
+.btn-sticky-left {
+    background: rgb(255, 214, 0) none repeat scroll 0 0;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 0 0 25px rgba(37, 37, 37, 0.4);
+    left: 0;
+    position: fixed;
+    top: 38%;
+    z-index: 99;
+}
+.btn-sticky-left a i {
+    color: #252525;
+    font-size: 18px;
+}
+.btn-sticky-left:hover > a {
+    width: 50px;
+}
+.btn-sticky-left > a {
+    padding: 10px;
+    display: block;
+    height: 40px;
+    text-align: center;
+    width: 40px;
+    transition: all 250ms ease-in-out;
+}
+.tickercontainer{background-color:#ffd600;}
+.tickercontainer span.name{color:#000;} 
+.tickercontainer span.coin_symbol{color:#000;}
+
+.tickercontainer span.price{color:#000;} 
+.tickercontainer .price-value{color:#000;}
+.ccpw-header-ticker-fixedbar{top:33px;}
+
+.mt_members1 .member01-content .content-div-content p {
+    color: !important;
+}
+.woocommerce-product-gallery{ opacity: 1 !important; }
+.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}
+
+.cryptic_countdown h1 {
+    font-size: 48px;
+    color: #252525;
+    line-height: 62px;
+    text-align: left;
+    font-family:Montserrat;
+    font-weight:400;
+    font-style:normal;
+}
+.cryptic_countdown h3 {
+    font-size: 18px;
+    color: #252525;
+    line-height: 26px;
+    text-align: left;
+    font-family:Montserrat;
+    font-weight:400;
+    font-style:normal;
+}
+.cryptic_countdown .btn,
+.cryptic_time_close .btn {
+    font-size: 16px;
+    padding: 18px 25px;
+    background-color:#252525; 
+    color:#ffffff;
+    border-radius: 5px;
+    transition: all 250ms;
+}
+.cryptic_countdown .btn{
+    float: left;
+}
+.cryptic_countdown .btn:hover,
+.cryptic_time_close .btn:hover {
+    background-color: #393a35;
+    color: #fff;
+}
+
+.buy-coin a {
+    background-color: #ffd600;
+    color: #252525;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 18px 25px;
+}
+.buy-coin a:hover {
+    background-color: #e5c000;
+    color: #252525;
+}
+.softcap span {
+    color: #d4d4d4;
+}
+.progress_bar .single_bar {
+    background: #f7f7f7;
+    position: relative;
+    margin-bottom: 0px;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1) inset;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.progress_bar .single_bar .label {
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+.flipclock-countdown {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    padding: 50px !important;
+    background-color: #252525 !important;
+}
+.progress_bar .single_bar .special-progress-bar {
+    display: block;
+    position: absolute;
+    height: 100%;
+    background-color: rgb(255, 214, 0);
+    width: 35%;
+    top: 0;
+    left: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    transition: width 1s linear;
+    -moz-transition: width 1s linear;
+    -webkit-transition: width 1s linear;
+    -o-transition: width 1s linear;
+}
+.single_bar span {
+    color: #252525;
+}
+.cryptic_full_card {
+    outline: none !important;
+    border: none !important;
+    box-sizing: border-box !important;
+    text-transform: none !important;
+    vertical-align: baseline !important;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12) !important;
+    display: inline-block !important;
+    max-width: 100% !important;
+    border-radius: 4px !important;
+    margin: 0 3px 10px 3px !important;
+    padding: 10px !important;
+    min-width: 200px !important;
+}
+.cryptic_full_card:hover {
+    box-shadow: 0 4px 5px -2px rgba(0, 0, 0, 0.2), 0 7px 10px 1px rgba(0, 0, 0, 0.14), 0 2px 16px 1px rgba(0, 0, 0, 0.12) !important;
+}
+.cryptic_yellow {
+    background-color: #FFEB3B !important;
+}
+.cryptic_full_card .symbol,
+.cryptic_full_card .name {
+    font-family: 'Roboto Condensed',! sans-serif important;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    outline: none !important;
+    border: none !important;
+    background: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+    text-transform: none !important;
+    vertical-align: baseline !important;
+    box-shadow: none !important;
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+    font-size: 26px !important;
+    line-height: 30px !important;
+    font-weight: 700 !important;
+
+}
+.cryptic_full_card .symbol.text {
+    color: rgba(0, 0, 0, 0.87) !important;
+}
+.modeltheme-countdown > div {
+    border: 4px solid #ffffff;
+}
+.cryptic_time_close h4,
+.cryptic_time_close h3 {
+    color: rgba(255,255,255,0.7);
+    line-height: 30px;
+    text-align: center;
+    font-family:Montserrat;
+    font-weight:700;
+    font-style:normal
+}
+.cryptic_time_close h1 {
+    font-size: 60px;
+    color: #ffffff;
+    line-height: 60px;
+    text-align: center;
+    font-family:Montserrat;
+    font-weight:700;
+    font-style:normal 
+}
+.cryptic_time_close .title-subtile-holder  h1 {
+    font-size: 30px;
+}
+.cryptic_customer {
+    background-color: #ffd600;
+}
+.cryptic_customer h2 {
+    font-size: 30px;
+    color: #252525;
+    line-height: 35px;
+    text-align: left;
+    font-family:Montserrat;
+    font-weight:700;
+    font-style:normal;
+}
+.cryptic_customer p span {
+    color: #666666; 
+    font-size: 16px; 
+    line-height: 25px; 
+    font-weight: 400;
+}
+.text-bold {
+    font-weight: bolder;
+}
+/*preloader*/
+.cryptic_preloader_holder {
+    background: #ffd600 none repeat scroll 0 0;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10003;
+}
+.cryptic_preloader_holder .loaders {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+}
+.live-coin-v3 {
+    background: #252525;
+    margin: 0 auto;
+    padding: 30px;
+}
+.show-code.show-code-left {
+    float: left;
+}
+.live-coin a.show-code i {
+    font-size: 55px;
+    color: #ffd500;
+}
+.background-black {
+    background: #252525;
+    color: rgba(255, 255, 255, 0.87);
+}
+.element-box-shadow {
+    box-shadow: 0 5px 20px 5px rgba(0, 0, 0, 0.05) !important;
+}
+.table.table-striped.background-black.pricing-tables-live table, 
+.table.table-striped.background-black.pricing-tables-live table th {
+    border: none;
+    text-align: right;
+}
+.table.table-striped.background-black.pricing-tables-live table {
+    width: 100%;
+}
+.table.table-striped.background-black.pricing-tables-live table th {
+    font-size: 16px;
+}
+.table.table-striped.background-black.pricing-tables-live table td:nth-child(1), 
+.table.table-striped.background-black.pricing-tables-live table td:nth-child(2), 
+.table.table-striped.background-black.pricing-tables-live table th:nth-child(1), 
+.table.table-striped.background-black.pricing-tables-live table th:nth-child(2) {
+    text-align: left;
+}
+.table.table-striped.background-black.pricing-tables-live table td {
+    border: none !important;
+    color: rgba(255,255,255);
+    text-align: right;
+    font-size: 16px;
+    padding: 5px 15px;
+}
+.table.table-striped.background-black.pricing-tables-live table th {
+    padding: 15px 15px 5px 15px;
+}
+.pricing-tables-live th {
+    color: #9aa7af;
+}
+.cryptic_countdown {
+    background-repeat: no-repeat;
+}
+.cryptic_live_price .table {
+    padding: 0 5px 7px 5px;
+}
+/* 3. Home - ICO Landing Page */
+svg#donut-chart {
+  display: block;
+  margin: 0 auto;
+}
+
+text.inner-circle {
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.arc {
+  cursor: pointer;
+}
+.arc:hover {
+  opacity: .85;
+}
+.arc text {
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+}
+body .cryptic_preloader_holder{
+        background-color: 1;
+    }
+.is_header_semitransparent .navbar-default {
+    background: rgba(255, 255, 255, 0.0) none repeat scroll 0 0;
+}
+.is_header_semitransparent .sticky-wrapper.is-sticky .navbar-default {
+    background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+}
+.back-to-top {
+    
+    color: #ffffff;
+}
+.appear {
+    margin-top: 0;
+}
+.home-ico-landing-page .breadcrumb a::after {
+  content: "/";
+}
+body.home-ico-landing-page{
+    background: #ffffff;
+}
+.home-ico-landing-page .logo img,
+.home-ico-landing-page .navbar-header .logo img {
+    max-width: 140px;
+}
+.home-ico-landing-page::selection{
+    color: #ffffff;
+    background: #6cd087;
+}
+.home-ico-landing-page::-moz-selection { /* Code for Firefox */
+    color: #ffffff;
+    background: #6cd087;
+}
+
+.home-ico-landing-page a{
+    color: #6cd087;
+}
+.home-ico-landing-page a:focus,
+.home-ico-landing-page a:visited,
+.home-ico-landing-page a:hover{
+    color: #6cd087;
+}
+
+/*------------------------------------------------------------------
+    COLOR
+------------------------------------------------------------------*/
+.home-ico-landing-page a, 
+.home-ico-landing-page a:hover, 
+.home-ico-landing-page a:focus,
+.home-ico-landing-page .mt_car--tax-type,
+.home-ico-landing-page span.amount,
+.home-ico-landing-page .widget_popular_recent_tabs .nav-tabs li.active a,
+.home-ico-landing-page .widget_product_categories .cat-item:hover,
+.home-ico-landing-page .widget_product_categories .cat-item a:hover,
+.home-ico-landing-page .widget_archive li:hover,
+.home-ico-landing-page .widget_archive li a:hover,
+.home-ico-landing-page .widget_categories .cat-item:hover,
+.home-ico-landing-page .widget_categories li a:hover,
+.home-ico-landing-page .pricing-table.recomended .button.solid-button, 
+.home-ico-landing-page .pricing-table .table-content:hover .button.solid-button,
+.home-ico-landing-page .pricing-table.Recommended .button.solid-button, 
+.home-ico-landing-page .pricing-table.recommended .button.solid-button, 
+.home-ico-landing-page #sync2 .owl-item.synced .post_slider_title,
+.home-ico-landing-page #sync2 .owl-item:hover .post_slider_title,
+.home-ico-landing-page #sync2 .owl-item:active .post_slider_title,
+.home-ico-landing-page .pricing-table.recomended .button.solid-button, 
+.home-ico-landing-page .pricing-table .table-content:hover .button.solid-button,
+.home-ico-landing-page .testimonial-author,
+.home-ico-landing-page .testimonials-container blockquote::before,
+.home-ico-landing-page .testimonials-container blockquote::after,
+.home-ico-landing-page .post-author > a,
+.home-ico-landing-page h2 span,
+.home-ico-landing-page label.error,
+.home-ico-landing-page .author-name,
+.home-ico-landing-page .prev-next-post a:hover,
+.home-ico-landing-page .prev-text,
+.home-ico-landing-page .wpb_button.btn-filled:hover,
+.home-ico-landing-page .next-text,
+.home-ico-landing-page .social ul li a:hover i,
+.home-ico-landing-page .wpcf7-form span.wpcf7-not-valid-tip,
+.home-ico-landing-page .text-dark .statistics .stats-head *,
+.home-ico-landing-page .wpb_button.btn-filled,
+.home-ico-landing-page footer ul.menu li.menu-item a:hover,
+.home-ico-landing-page .widget_meta a:hover,
+.home-ico-landing-page .widget_pages a:hover,
+.home-ico-landing-page .blogloop-v1 .post-name a:hover,
+.home-ico-landing-page .blogloop-v2 .post-name a:hover,
+.home-ico-landing-page .blogloop-v3 .post-name a:hover,
+.home-ico-landing-page .blogloop-v4 .post-name a:hover,
+.home-ico-landing-page .blogloop-v5 .post-name a:hover,
+.home-ico-landing-page .post-category-comment-date span a:hover,
+.home-ico-landing-page .post-category-comment-date span:hover,
+.home-ico-landing-page .list-view .post-details .post-category-comment-date i:hover,
+.home-ico-landing-page .list-view .post-details .post-category-comment-date a:hover,
+.home-ico-landing-page .simple_sermon_content_top h4,
+.home-ico-landing-page .page_404_v1 h1,
+.home-ico-landing-page .mt_cars--single-main-pic .post-name > a,
+.home-ico-landing-page .widget_recent_comments li:hover a,
+.home-ico-landing-page .list-view .post-details .post-name a:hover,
+.home-ico-landing-page .blogloop-v5 .post-details .post-sticky-label i,
+.home-ico-landing-page header.header2 .header-info-group .header_text_title strong,
+.home-ico-landing-page .widget_recent_entries_with_thumbnail li:hover a,
+.home-ico-landing-page .widget_recent_entries li a:hover,
+.home-ico-landing-page .blogloop-v1 .post-details .post-sticky-label i,
+.home-ico-landing-page .blogloop-v2 .post-details .post-sticky-label i,
+.home-ico-landing-page .blogloop-v3 .post-details .post-sticky-label i,
+.home-ico-landing-page .blogloop-v4 .post-details .post-sticky-label i,
+.home-ico-landing-page .blogloop-v5 .post-details .post-sticky-label i,
+.home-ico-landing-page .mt_listing--price-day.mt_listing--price .mt_listing_price,
+.home-ico-landing-page .mt_listing--price-day.mt_listing--price .mt_listing_currency,
+.home-ico-landing-page .mt_listing--price-day.mt_listing--price .mt_listing_per,
+.home-ico-landing-page .error-404.not-found h1,
+.home-ico-landing-page .header-info-group i,
+.home-ico-landing-page .woocommerce form .form-row .required,
+.home-ico-landing-page .woocommerce .woocommerce-info::before,
+.home-ico-landing-page .woocommerce .woocommerce-message::before,
+.home-ico-landing-page .woocommerce div.product p.price, 
+.home-ico-landing-page .woocommerce div.product span.price,
+.home-ico-landing-page .woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+.home-ico-landing-page .related.products ul.products li.product .button,         
+.home-ico-landing-page .error-404.not-found h1,
+.home-ico-landing-page .header-info-group i,
+body.home-ico-landing-page .lms-course-infos i,
+.home-ico-landing-page .action-expand::after,
+.home-ico-landing-page .list-view .post-details .post-excerpt .more-link:hover,
+.home-ico-landing-page .header4 header .right-side-social-actions .social-links a:hover i,
+.home-ico-landing-page #navbar .menu-item.selected > a, 
+.home-ico-landing-page #navbar .menu-item:hover > a,
+.home-ico-landing-page .sidebar-content .widget_nav_menu li a:hover,
+.home-ico-landing-page .blog-posts-shortcode-v2 .post-details .post-category,
+.ico-landing-grid a,
+.ico-landing-grid a:hover {
+    color: #6cd087;
+}
+.woocommerce a.remove {
+    color: #6cd087!important;
+}
+
+
+/* NAVIGATION */
+.home-ico-landing-page .navstyle-v8.header3 #navbar.ico-landing-page-navbar .menu > .menu-item.current-menu-item > a, 
+.home-ico-landing-page .navstyle-v8.header3 #navbar.ico-landing-page-navbar .menu > .menu-item:hover > a,
+.home-ico-landing-page .navstyle-v1.header3 #navbar.ico-landing-page-navbar .menu > .menu-item:hover > a,
+.home-ico-landing-page .navstyle-v1.header2 #navbar.ico-landing-page-navbar .menu > .menu-item:hover > a,
+.home-ico-landing-page #navbar.ico-landing-page-navbar ul.sub-menu li a:hover,
+.home-ico-landing-page .navstyle-v4 #navbar.ico-landing-page-navbar .menu > .menu-item.current-menu-item > a,
+.home-ico-landing-page .navstyle-v4 #navbar.ico-landing-page-navbar .menu > .menu-item:hover > a,
+.home-ico-landing-page .navstyle-v3 #navbar.ico-landing-page-navbar .menu > .menu-item.current-menu-item > a, 
+.home-ico-landing-page .navstyle-v3 #navbar.ico-landing-page-navbar .menu > .menu-item:hover > a,
+.home-ico-landing-page .navstyle-v3 #navbar.ico-landing-page-navbar .menu > .menu-item > a::before, 
+.home-ico-landing-page .navstyle-v3 #navbar.ico-landing-page-navbar .menu > .menu-item > a::after,
+.home-ico-landing-page .navstyle-v2 #navbar.ico-landing-page-navbar .menu > .menu-item.current-menu-item > a,
+.home-ico-landing-page .navstyle-v2 #navbar.ico-landing-page-navbar .menu > .menu-item:hover > a,
+.home-ico-landing-page #navbar.ico-landing-page-navbar .menu-item.selected > a,
+.home-ico-landing-page #navbar.ico-landing-page-navbar .menu-item:hover > a{
+    color: #6cd087;
+}
+.home-ico-landing-page .navstyle-v2.header3 #navbar .menu > .menu-item > a::before,
+.home-ico-landing-page .navstyle-v2.header3 #navbar .menu > .menu-item > a::after,
+.home-ico-landing-page .navstyle-v8 #navbar .menu > .menu-item > a::before,
+.home-ico-landing-page .navstyle-v7 #navbar .menu > .menu-item .sub-menu > .menu-item > a:hover,
+.home-ico-landing-page .navstyle-v7 #navbar .menu > .menu-item.current_page_item > a,
+.home-ico-landing-page .navstyle-v7 #navbar .menu > .menu-item.current-menu-item > a,
+.home-ico-landing-page .navstyle-v7 #navbar .menu > .menu-item:hover > a,
+.home-ico-landing-page .navstyle-v6 #navbar .menu > .menu-item.current_page_item > a,
+.home-ico-landing-page .navstyle-v6 #navbar .menu > .menu-item.current-menu-item > a,
+.home-ico-landing-page .navstyle-v6 #navbar .menu > .menu-item:hover > a,
+.home-ico-landing-page .navstyle-v5 #navbar .menu > .menu-item.current_page_item > a, 
+.home-ico-landing-page .navstyle-v5 #navbar .menu > .menu-item.current-menu-item > a,
+.home-ico-landing-page .navstyle-v5 #navbar .menu > .menu-item:hover > a,
+.home-ico-landing-page .navstyle-v2 #navbar .menu > .menu-item > a::before, 
+.home-ico-landing-page .navstyle-v2 #navbar .menu > .menu-item > a::after{
+    background: #6cd087;
+}
+
+
+/* Color Dark / Hovers */
+.home-ico-landing-page footer .footer-top .menu li.menu-item:hover a,
+.home-ico-landing-page .related-posts .post-name:hover a{
+    color: #6cd087 !important;
+}
+
+/*------------------------------------------------------------------
+    BACKGROUND + BACKGROUND-COLOR
+------------------------------------------------------------------*/
+.home-ico-landing-page .tagcloud > a:hover,
+.home-ico-landing-page .modeltheme-icon-search,
+.home-ico-landing-page .wpb_button::after,
+.home-ico-landing-page .rotate45,
+.home-ico-landing-page .latest-posts .post-date-day,
+.home-ico-landing-page .latest-posts h3, 
+.home-ico-landing-page .latest-tweets h3, 
+.home-ico-landing-page .latest-videos h3,
+.home-ico-landing-page .button.solid-button, 
+.home-ico-landing-page button.vc_btn,
+.home-ico-landing-page .pricing-table.recomended .table-content, 
+.home-ico-landing-page .pricing-table .table-content:hover,
+.home-ico-landing-page .pricing-table.Recommended .table-content, 
+.home-ico-landing-page .pricing-table.recommended .table-content, 
+.home-ico-landing-page .pricing-table.recomended .table-content, 
+.home-ico-landing-page .pricing-table .table-content:hover,
+.home-ico-landing-page .block-triangle,
+.home-ico-landing-page .owl-theme .owl-controls .owl-page span,
+body.home-ico-landing-page .vc_btn.vc_btn-blue, 
+body.home-ico-landing-page a.vc_btn.vc_btn-blue, 
+body.home-ico-landing-page button.vc_btn.vc_btn-blue,
+.home-ico-landing-page .pagination .page-numbers.current,
+.home-ico-landing-page .pagination .page-numbers:hover,
+.home-ico-landing-page #subscribe > button[type='submit'],
+.home-ico-landing-page .social-sharer > li:hover,
+.home-ico-landing-page .prev-next-post a:hover .rotate45,
+.home-ico-landing-page .masonry_banner.default-skin,
+.home-ico-landing-page .form-submit input,
+.home-ico-landing-page .member-header::before, 
+.home-ico-landing-page .member-header::after,
+.home-ico-landing-page .member-footer .social::before, 
+.home-ico-landing-page .member-footer .social::after,
+.home-ico-landing-page .subscribe > button[type='submit'],
+.home-ico-landing-page .no-results input[type='submit'],
+.home-ico-landing-page h3#reply-title::after,
+.home-ico-landing-page .newspaper-info,
+.home-ico-landing-page header.header1 .header-nav-actions .shop_cart,
+.home-ico-landing-page .categories_shortcode .owl-controls .owl-buttons i:hover,
+.home-ico-landing-page .widget-title:after,
+.home-ico-landing-page h2.heading-bottom:after,
+.home-ico-landing-page .single .content-car-heading:after,
+.home-ico-landing-page .wpb_content_element .wpb_accordion_wrapper .wpb_accordion_header.ui-state-active,
+.home-ico-landing-page #primary .main-content ul li:not(.rotate45)::before,
+.home-ico-landing-page .wpcf7-form .wpcf7-submit,
+.home-ico-landing-page ul.ecs-event-list li span,
+.home-ico-landing-page #contact_form2 .solid-button.button,
+.home-ico-landing-page .navbar-default .navbar-toggle .icon-bar,
+.home-ico-landing-page .modeltheme-search .search-submit,
+.home-ico-landing-page .pricing-table.recommended .table-content .title-pricing,
+.home-ico-landing-page .pricing-table .table-content:hover .title-pricing,
+.home-ico-landing-page .pricing-table.recommended .button.solid-button,
+.home-ico-landing-page .blogloop-v5 .absolute-date-badge span,
+.home-ico-landing-page .post-category-date a[rel="tag"],
+.home-ico-landing-page .cryptic_preloader_holder.cryptic_preloader_holder_ico,
+.home-ico-landing-page #navbar .mt-icon-list-item:hover,
+.home-ico-landing-page .mt_car--single-gallery.mt_car--featured-single-gallery:hover,
+.home-ico-landing-page footer .mc4wp-form-fields input[type="submit"],
+.home-ico-landing-page .modeltheme-pagination.pagination .page-numbers.current,
+.home-ico-landing-page .pricing-table .table-content:hover .button.solid-button,
+.home-ico-landing-page footer .footer-top .menu .menu-item a::before,
+.home-ico-landing-page .mt-car-search .submit .form-control,
+.home-ico-landing-page .blogloop-v4.list-view .post-date,
+.home-ico-landing-page header .top-header,
+.home-ico-landing-page .navbar-toggle .icon-bar,
+.home-ico-landing-page .back-to-top,
+.home-ico-landing-page  .woocommerce #respond input#submit,.woocommerce a.button, 
+.home-ico-landing-page .woocommerce button.button, 
+.home-ico-landing-page .woocommerce input.button,
+.home-ico-landing-page table.compare-list .add-to-cart td a,
+body.home-ico-landing-page.woocommerce ul.products li.product .onsale,
+.home-ico-landing-page .woocommerce #respond input#submit.alt, 
+.home-ico-landing-page .woocommerce a.button.alt, 
+.home-ico-landing-page .woocommerce button.button.alt, 
+.home-ico-landing-page .woocommerce input.button.alt,
+.home-ico-landing-page .woocommerce a.remove:hover,
+.home-ico-landing-page .woocommerce .widget_price_filter .ui-slider .ui-slider-range,
+.home-ico-landing-page .woocommerce nav.woocommerce-pagination ul li a:focus, 
+.home-ico-landing-page .woocommerce nav.woocommerce-pagination ul li a:hover, 
+.home-ico-landing-page .woocommerce nav.woocommerce-pagination ul li span.current,
+.home-ico-landing-page .woocommerce.single-product .wishlist-container .yith-wcwl-wishlistaddedbrowse,
+.home-ico-landing-page .woocommerce #respond input#submit.alt.disabled, 
+.home-ico-landing-page .woocommerce #respond input#submit.alt.disabled:hover, 
+.home-ico-landing-page .woocommerce #respond input#submit.alt:disabled, 
+.home-ico-landing-page .woocommerce #respond input#submit.alt:disabled:hover, 
+.home-ico-landing-page .woocommerce #respond input#submit.alt[disabled]:disabled, 
+.home-ico-landing-page .woocommerce #respond input#submit.alt[disabled]:disabled:hover, 
+.home-ico-landing-page .woocommerce a.button.alt.disabled, 
+.home-ico-landing-page .woocommerce a.button.alt.disabled:hover, 
+.home-ico-landing-page .woocommerce a.button.alt:disabled, 
+.home-ico-landing-page .woocommerce a.button.alt:disabled:hover, 
+.home-ico-landing-page .woocommerce a.button.alt[disabled]:disabled, 
+.home-ico-landing-page .woocommerce a.button.alt[disabled]:disabled:hover, 
+.home-ico-landing-page .woocommerce button.button.alt.disabled, 
+.home-ico-landing-page .woocommerce button.button.alt.disabled:hover, 
+.home-ico-landing-page .woocommerce button.button.alt:disabled, 
+.home-ico-landing-page .woocommerce button.button.alt:disabled:hover, 
+.home-ico-landing-page .woocommerce button.button.alt[disabled]:disabled, 
+.home-ico-landing-page .woocommerce button.button.alt[disabled]:disabled:hover, 
+.home-ico-landing-page .woocommerce input.button.alt.disabled, 
+.home-ico-landing-page .woocommerce input.button.alt.disabled:hover, 
+.home-ico-landing-page .woocommerce input.button.alt:disabled, 
+.home-ico-landing-page .woocommerce input.button.alt:disabled:hover, 
+.home-ico-landing-page .woocommerce input.button.alt[disabled]:disabled, 
+.home-ico-landing-page .woocommerce input.button.alt[disabled]:disabled:hover,
+.home-ico-landing-page .hover-components .component a:hover,
+.home-ico-landing-page .related.products span.onsale,
+.home-ico-landing-page table.compare-list .add-to-cart td a,
+.home-ico-landing-page .shop_cart,
+.home-ico-landing-page .back-to-top,
+.home-ico-landing-page #listings_metaboxs input[type="submit"],
+.home-ico-landing-page .mt_listing--single-price-inner,
+.home-ico-landing-page input.wpcf7-form-control.wpcf7-submit,
+.home-ico-landing-page .post-password-form input[type="submit"],
+.home-ico-landing-page .widget.widget_product_search button,
+.home-ico-landing-page .search-form input[type="submit"],
+.home-ico-landing-page .wpb_accordion .wpb_accordion_wrapper .wpb_accordion_header a,
+.home-ico-landing-page .post-password-form input[type='submit'],
+.ico-landing-grid .back-to-top,
+.cryptic_ico_filter_big_db .mt-car-search .submit .form-control,
+.cryptic_ico_filter_big_db .mt-car-search .submit .form-control:hover {
+    background: #6cd087;
+}
+body.home-ico-landing-page .courses-list .featured_image_courses .course_badge i,
+body.home-ico-landing-page .courses-list .shortcode_course_content,
+.home-ico-landing-page .single-product.woocommerce span.onsale,
+.home-ico-landing-page .header_mini_cart .button.wc-forward,
+.home-ico-landing-page .header_mini_cart .button.checkout,
+.home-ico-landing-page .woocommerce ul.products li.product .onsale, 
+body.home-ico-landing-page .woocommerce ul.products li.product .onsale, 
+body.home-ico-landing-page .woocommerce ul.products li.product .onsale,
+.home-ico-landing-page .blog-posts-shortcode .time-n-date {
+        background-color: #6cd087 !important;
+}
+.home-ico-landing-page .modeltheme-search.modeltheme-search-open .modeltheme-icon-search, 
+.home-ico-landing-page .no-js .modeltheme-search .modeltheme-icon-search,
+.home-ico-landing-page .modeltheme-icon-search:hover,
+.home-ico-landing-page .latest-posts .post-date-month,
+.home-ico-landing-page .button.solid-button:hover,
+body.home-ico-landing-page .vc_btn.vc_btn-blue:hover, 
+body.home-ico-landing-page a.vc_btn.vc_btn-blue:hover, 
+.home-ico-landing-page .post-category-date a[rel="tag"]:hover,
+body.home-ico-landing-page .single-post-tags > a:hover,
+.home-ico-landing-page button.vc_btn.vc_btn-blue:hover,
+.home-ico-landing-page .blogloop-v5 .absolute-date-badge span:hover,
+.home-ico-landing-page .mt-car-search .submit .form-control:hover,
+.home-ico-landing-page #contact_form2 .solid-button.button:hover,
+.home-ico-landing-page .subscribe > button[type='submit']:hover,
+.home-ico-landing-page footer .mc4wp-form-fields input[type="submit"]:hover,
+.home-ico-landing-page .no-results.not-found .search-submit:hover,
+.home-ico-landing-page #listings_metaboxs input[type="submit"]:hover,
+.home-ico-landing-page .no-results input[type='submit']:hover,
+.home-ico-landing-page ul.ecs-event-list li span:hover,
+.home-ico-landing-page .pricing-table.recommended .table-content .price_circle,
+.home-ico-landing-page .pricing-table .table-content:hover .price_circle,
+.home-ico-landing-page #modal-search-form .modal-content input.search-input,
+.home-ico-landing-page .wpcf7-form .wpcf7-submit:hover,
+.home-ico-landing-page .form-submit input:hover,
+.home-ico-landing-page .blogloop-v4.list-view .post-date a:hover,
+.home-ico-landing-page .pricing-table.recommended .button.solid-button:hover,
+.home-ico-landing-page .search-form input[type="submit"]:hover,
+.home-ico-landing-page .modeltheme-pagination.pagination .page-numbers.current:hover,
+.home-ico-landing-page .error-return-home.text-center > a:hover,
+.home-ico-landing-page .pricing-table .table-content:hover .button.solid-button:hover,
+.home-ico-landing-page .post-password-form input[type="submit"]:hover,
+.home-ico-landing-page .navbar-toggle .navbar-toggle:hover .icon-bar,
+.home-ico-landing-page .ico-landing-page-navbar .back-to-top:hover,
+.home-ico-landing-page .woocommerce #respond input#submit:hover, 
+.home-ico-landing-page .woocommerce a.button:hover, 
+.home-ico-landing-page .widget.widget_product_search button:hover,
+.home-ico-landing-page .woocommerce button.button:hover, 
+.home-ico-landing-page .woocommerce input.button:hover,
+.home-ico-landing-page table.compare-list .add-to-cart td a:hover,
+.home-ico-landing-page .woocommerce #respond input#submit.alt:hover, 
+.home-ico-landing-page .woocommerce a.button.alt:hover, 
+.home-ico-landing-page .woocommerce button.button.alt:hover, 
+.home-ico-landing-page .woocommerce input.button.alt:hover,
+.home-ico-landing-page .post-password-form input[type='submit']:hover {
+    background: #6cd087;
+}
+.home-ico-landing-page .tagcloud > a:hover{
+    background: #6cd087 !important;
+}
+
+.home-ico-landing-page .hover-components .component a,
+.home-ico-landing-page .woocommerce ul.cart_list li a::before, 
+.home-ico-landing-page .woocommerce ul.product_list_widget li a::before,
+.home-ico-landing-page .flickr_badge_image a::after,
+.home-ico-landing-page .thumbnail-overlay,
+.home-ico-landing-page .portfolio-hover,
+.home-ico-landing-page .pastor-image-content .details-holder,
+.home-ico-landing-page .item-description .holder-top,
+.home-ico-landing-page blockquote::before {
+    background: rgba(255, 214, 0, 0.7);
+}
+
+/*------------------------------------------------------------------
+    BORDER-COLOR
+------------------------------------------------------------------*/
+.home-ico-landing-page .comment-form input, 
+.home-ico-landing-page .comment-form textarea,
+.home-ico-landing-page .author-bio,
+.home-ico-landing-page blockquote,
+.home-ico-landing-page .widget_popular_recent_tabs .nav-tabs > li.active,
+body.home-ico-landing-page .left-border, 
+body.home-ico-landing-page .right-border,
+body.home-ico-landing-page .member-header,
+body.home-ico-landing-page .member-footer .social,
+body.home-ico-landing-page .button[type='submit'],
+.home-ico-landing-page .navbar ul li ul.sub-menu,
+.home-ico-landing-page .wpb_content_element .wpb_tabs_nav li.ui-tabs-active,
+.home-ico-landing-page #contact-us .form-control:focus,
+.home-ico-landing-page .sale_banner_holder:hover,
+.home-ico-landing-page .testimonial-img,
+.home-ico-landing-page .wpcf7-form input:focus, 
+.home-ico-landing-page .woocommerce div.product .woocommerce-tabs ul.tabs li.active,
+.home-ico-landing-page .woocommerce .woocommerce-info, 
+.home-ico-landing-page .woocommerce .woocommerce-message,
+.home-ico-landing-page .header_mini_cart .woocommerce .widget_shopping_cart .total, 
+.home-ico-landing-page .header_mini_cart .woocommerce.widget_shopping_cart .total,
+.home-ico-landing-page .header_mini_cart,
+.home-ico-landing-page .header_mini_cart.visible_cart,
+.home-ico-landing-page .wpcf7-form textarea:focus,
+.home-ico-landing-page .navbar-default .navbar-toggle:hover, 
+.home-ico-landing-page .header_search_form,
+body.home-ico-landing-page .course-review-head, 
+body.home-ico-landing-page .course-content > h3:first-child, 
+body.home-ico-landing-page .course-curriculum-title,
+.home-ico-landing-page .list-view .post-details .post-excerpt .more-link:hover{
+    border-color: #6cd087;
+}
+
+.home-ico-landing-page header .navbar-toggle,
+.home-ico-landing-page .navbar-default .navbar-toggle{
+    border: 3px solid #6cd087;
+}
+.cryptic_countdown_ico.data_background {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ico-landing-page-h1 {
+    font-size: 48px;
+    color: #ffffff;
+    line-height: 62px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: normal;
+}
+.h3-first-step {
+    font-size: 18px;
+    color: #6cd087;
+    line-height: 25px;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: normal;
+}
+.progress-bar-title h6 {
+    max-width: 600px; 
+    margin: 0 auto; 
+    text-align: center; 
+    font-weight: 800; 
+    color: #fff; 
+    font-size: 15px;
+}
+.progress-bar-title h6 span{
+    color: #6cd087;
+}
+.cryptic_countdown_ico {
+    padding-top: 150px;
+}
+.ico-contribution h6{
+    max-width: 600px; 
+    margin: 0 auto; 
+    color: #fff; 
+    font-weight: 800; 
+    font-size: 15px;
+    text-align: left;
+}
+.flipclock-countdown-ico small{
+    color: #fff;
+}
+.ico-contribution span {
+    float: right;
+}
+/* section 2*/
+.about_cryptic_ico,
+.cryptic_smart_solution_ico,
+.cryptic_our_team_ico {
+    background-color: #101010;
+}
+.ico-border-right {
+    border-right: 1px solid #282828;
+}
+.ico-landing-page-img {
+    height: auto;
+    margin-top: 30px;
+    margin-right: 35px;
+}
+.no-margin {
+    margin: 0px;
+}
+.nav-pills-ico li {
+    width: 30%;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-right: 0;
+    min-height: 1px;
+    padding-left: 0;
+    vertical-align: top;
+    
+    cursor: pointer;
+    position: relative;
+    vertical-align: middle;
+    font-weight: normal;
+    transition: 1s all cubic-bezier(0.075, 0.82, 0.165, 1);
+    text-align: left;
+    
+}
+.nav-pills.nav-pills-ico > li.active > a {
+    background: #202020;
+}
+.nav-pills-ico .light {
+    position: absolute;
+    background-color: #303F9F;
+    left: 0;
+    height: 100%;
+    width: 4px;
+    top: 0;
+    border-radius: 0;
+}
+.nav-pills-ico li.active .light {
+    background-color: #6cd087;
+}
+.nav-pills-ico li a{
+    color: #a7a7a7;
+    cursor: pointer;
+    font-weight: normal;
+    text-align: left;
+    padding: 15px 20px 15px 40px;
+    background-color: transparent;
+}
+.ico-separator {
+    padding: 10px 0;
+}
+.members_img_holder .member01_name.light_name,
+.light_position {
+    color: #fff;
+}
+.vc_chart .vc_chart-legend {
+    text-align: left;
+    padding-top: 90px !important;
+}
+.vc_chart .vc_chart-with-legend {
+    float: left;
+}
+.ccpw_table {
+    border:none!important;
+}
+.countdown-version3.countdownv2 {
+    padding: 10px;
+}
+.vc_progress_bar.progress_dark .vc_single_bar .vc_bar.striped {
+    background-color: rgb(39, 53, 181);
+    width: 80%;
+}
+.vc_icon_element-icon {
+    color:#6cd087 !important;
+}
+.vc_separator .vc_sep_holder.sep_holder span.vc_sep_line {
+    border-color:#282828;
+}
+.about_cryptic_ico_about h2 {
+    font-size: 23px;
+    color: #ffffff;
+    line-height: 35px;
+    text-align: left;
+    font-family:Montserrat;
+    font-weight:700;
+    font-style:normal;
+}
+.about_cryptic_ico_about span {
+    color: rgba(255,255,255, 0.7); 
+    font-size: 15px; 
+    line-height: 25px; 
+    font-weight: 400;
+}
+.cryptic_revolution_ico h1 {
+    font-size: 48px;
+    color: #ffffff;
+    line-height: 62px;
+    text-align: center;
+    font-family:Montserrat;
+    font-weight:700;
+    font-style:normal;
+}
+.cryptic_revolution_ico h3 {
+    font-size: 20px;
+    color: rgba(255,255,255,0.7);
+    line-height: 30px;
+    text-align: center;
+    font-family:Montserrat;
+    font-weight:400;
+    font-style:normal;
+}
+.cryptic_revolution_ico button.vc_general.vc_btn3 {
+    background-color:#6cd086; 
+    color:#ffffff; 
+}
+.cryptic_revolution_ico button.vc_general.vc_btn3:hover,
+.dark-version .mc4wp-form input[type="submit"]:hover,
+.button-winona.btn.btn-medium.btn_custom_buy_tokens:hover,
+.cryptic_ico_filter_big_db .mt-car-search .submit .form-control:hover {
+    opacity: 0.9;
+    color: #252525;
+}
+.button-winona.btn.btn-medium.btn_custom_whitepaper:hover {
+    opacity: 0.9;
+    color: #6cd086;
+}
+.vc_chart-legend li:first-child span {
+    background-color:#6a7179;
+}
+.vc_chart-legend li:nth-child(2) span {
+    background-color:#89929f;
+}
+.vc_chart-legend li:nth-child(3) span {
+    background-color:#6cd086;
+}
+.vc_chart-legend li:nth-child(4) span {
+    background-color:#2735b5;
+}
+.vc_chart-legend li:nth-child(5) span {
+    background-color:#a8b3c5;
+}
+.cryptic_smart_solution_ico_token h2 {
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 25px;
+    text-align: left;
+    font-family:Montserrat;
+    font-weight:700;
+    font-style:normal;
+}
+.text-white {
+    color: #fff !important;
+}
+.cryptic_smart_solution_ico_token .vc_separator .vc_sep_holder span.vc_sep_line {
+    border-color:rgb(108,208,135);
+    border-color:rgba(108,208,135,0.7);
+}
+.cryptic_smart_solution_ico_token p i {
+    color: rgba(108,208,135,0.7); 
+    margin-right: 5px;
+}
+.bitcurrency-contact.cryptic-dark {
+    background-color:transparent;
+    padding:0px;
+}
+.section-top-1 {
+    width:48%;
+    float:left;
+    margin-right:4%;
+}
+.section-top-2 {
+    width:48%;
+    float:right;
+}
+.section-top-3 {
+    float: left;
+}
+.cryptic_revolution_ico h2 {
+    font-size: 48px;
+    color: #ffffff;
+    line-height: 62px;
+    text-align: center;
+    font-family:Montserrat;
+    font-weight:700;
+    font-style:normal; 
+}
+.cryptic_revolution_ico h3 {
+    font-size: 20px;
+    color: rgba(255,255,255,0.7);
+    line-height: 30px;
+    text-align: center;
+    font-family:Montserrat;
+    font-weight:400;
+    font-style:normal;
+}
+.cryptic_revolution_ico label {
+    display: none !important;
+}
+/* 4. Home - ICO Landing Page 2 */
+.cryptic_countdown_ico_list_2 {
+    padding-top: 150px;
+}
+.modeltheme_button .btn_custom_buy_tokens {
+  background: #6cd087 !important; /* Old browsers */
+  background: -moz-linear-gradient(top, #6cd087 0%, #6cd087 0%, #6cd087 0%, #6cd087 0%, #6cd087 100%, #6cd087 100%, #6cd087 100%) !important; /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #6cd087 0%,#6cd087 0%,#6cd087 0%,#6cd087 0%,#6cd087 100%,#6cd087 100%,#6cd087 100%) !important; /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #6cd087 0%,#6cd087 0%,#6cd087 0%,#6cd087 0%,#6cd087 100%,#6cd087 100%,#6cd087 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=#6cd087, endColorstr=#6cd087,GradientType=0 ) !important; /* IE6-9 */
+  border: 1px solid #6cd087 !important;
+  transition: all 250ms ease-in;
+  -ms-transition: all 250ms ease-in;
+  -webkit-transition: all 250ms ease-in;
+}
+.modeltheme_button .btn_custom_whitepaper {
+    color:#6cd087
+    background: rgba(0,0,0,0.01) !important; /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.01) 100%, rgba(0,0,0,0.01) 100%, rgba(0,0,0,0.01) 100%) !important; /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.01) 0%,rgba(0,0,0,0.01) 0%,rgba(0,0,0,0.01) 0%,rgba(0,0,0,0.01) 0%,rgba(0,0,0,0.01) 100%,rgba(0,0,0,0.01) 100%,rgba(0,0,0,0.01) 100%) !important; /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.01) 0%,rgba(0,0,0,0.01) 0%,rgba(0,0,0,0.01) 0%,rgba(0,0,0,0.01) 0%,rgba(0,0,0,0.01) 100%,rgba(0,0,0,0.01) 100%,rgba(0,0,0,0.01) 100%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr=rgba(0,0,0,0.01), endColorstr=rgba(0,0,0,0.01),GradientType=0 ) !important; /* IE6-9 */
+    border: 1px solid #6cd087 !important;
+    transition: all 250ms ease-in;
+    -ms-transition: all 250ms ease-in;
+    -webkit-transition: all 250ms ease-in;
+}
+.flipclock-countdown-ico-2 .vc_separator .vc_sep_holder.sep_holder span.vc_sep_line {
+    border-color:#6cd087;
+}
+.crypto_investors,
+.crypto_softcap,
+.crypto_hardcap {
+    color: #6cd087;
+}
+.crypto_investors,
+.crypto_hardcap{
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 20px !important;
+    padding-right: 0px !important;
+    padding-bottom: 20px !important;
+    padding-left: 0px !important;
+    background-color: #151515 !important;
+}
+.crypto_softcap {
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 0px !important;
+    padding-top: 20px !important;
+    padding-right: 0px !important;
+    padding-bottom: 20px !important;
+    padding-left: 0px !important;
+    background-color: #202020 !important;
+}
+.ico_team {
+    float: right;
+    margin-right: 30px;
+}
+.ico_contributors {
+    margin-left: 30px;
+}
+.border_color_1,
+.background_facebook{
+    background: #2735b5;
+}
+.border_color_2,
+.background_twitter,
+.background_telegram{
+    background: #3985bd;
+}
+.border_color_3{
+    background: #6cd086;
+}
+.border_color_4{
+    background: #ffd600;
+}
+.border_color_5{
+    background: #eb5c5e;
+}
+.border_color_6{
+    background: #a8b3c5;
+}
+.background_github {
+    background-color:#252525
+}
+.background_bitcoinTalk {
+    background-color:#d03758;
+}
+.background_medium{
+    background-color:#6cd087;
+}
+.panel2.unique1 {
+    border-top:2px solid #6cd086;
+    background:#202020;
+    color:#ffffff;
+}
+.panel2.unique1:hover { 
+    border-top:4px solid #6cd086 !important;
+}
+.panel2.unique2 {
+    border-top:2px solid #2735b5;
+    background:#202020;
+    color:#ffffff;
+}
+.panel2.unique2:hover {
+    border-top:4px solid #2735b5 !important;
+}
+.panel2.unique3 {
+    border-top:2px solid #ffd600;
+    background:#202020;
+    color:#ffffff;
+}
+.panel2.unique3:hover {
+     border-top:4px solid #ffd600 !important;
+}
+.panel2.unique4 {
+    border-top:2px solid #eb5c5e;
+    background:#202020;
+    color:#ffffff;
+}
+.panel2.unique4:hover {
+    border-top:4px solid #eb5c5e !important;
+}
+.cryptic_coin p {
+    color: #666666;
+}
+
+/* 5. About Us */
+.cryptic_about_us span {
+    color: #666666; 
+    font-size: 15px; 
+    line-height: 25px; 
+    font-weight: 400;
+}
+.cryptic_about_us button,
+.cryptic_exchange button {
+        background-color: #252525;
+        color: #ffffff;
+        border: none;
+        box-shadow: unset;
+        text-decoration: none;
+        background-image: -webkit-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.1) 50%,rgba(0,0,0,.1));
+        background-image: -o-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.1) 50%,rgba(0,0,0,.1));
+        background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.1) 50%,rgba(0,0,0,.1));
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#1a000000', GradientType=0);
+        background-repeat: repeat-x;
+        background-size: 200%;
+        background-position: 0 -100%;
+        border-radius: 5px;
+}
+.cryptic_about_us button:hover {
+    background-color: #393a35;
+}
+.cryptic_about_us h2 {
+    font-size: 23px;
+    color: #252525;
+    line-height: 35px;
+    text-align: left;
+    font-family:Montserrat;
+    font-weight:700;
+    font-style:normal;
+}
+.cryptic_about_us img {
+    padding-top: 2px; 
+    margin-right: 35px;
+}
+.cryptic_about_us .cryptic_about_us_info span {
+    color: rgba(37, 37, 37, 0.7);
+}
+.cryptic_about_us_info.first-item img {
+    width: 19px;
+}
+.cryptic_about_us_info img {
+    float: left;
+    height: 122px;
+    margin-top: 30px;
+    width: 34px;
+}
+.cryptic_separator{
+    margin-left: auto;
+    width: 100%;
+    margin-right: auto;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-bottom: 35px;
+    
+}
+.cryptic_separator.cryptic_separator_light {
+    border-top: 1px solid rgba(100,100,100,0.7) !important;
+}
+.cryptic_separator.cryptic_separator_dark {
+    border-color: #282828;
+    border-top: 1px solid #EBEBEB;
+}
+/* 6. How it works */
+.cryptic_time_ico_close h3 {
+    color: #252525;
+    text-align: left;
+    font-family:Montserrat;
+    font-weight:700;
+    font-style:normal;
+}
+.cryptic_time_ico_close_p {
+    color: #666666;
+}
+/* 7. Services */
+.cryptic_services  h2 {
+    font-size: 23px;
+    color: #252525;
+    line-height: 35px;
+    text-align: left;
+    font-family:Montserrat;
+    font-weight:700;
+    font-style:normal;
+}
+.cryptic_services  span {
+    color: rgba(37, 37, 37, 0.7); 
+    font-size: 15px; 
+    line-height: 25px; 
+    font-weight: 400;
+}
+.cryptic_services  img{
+    padding-top: 2px; 
+    margin-right: 35px;
+    float: left;
+}
+/* 8. Blog */
+.ccpw-ticker-cont{
+  width:100%;
+  overflow: hidden;
+  cursor:pointer;
+}
+.ccpw-footer-ticker-fixedbar{
+position:fixed;    
+border-top: 1px solid #ccc;
+bottom: 0px!important; 
+font-family: Arial, Helvetica, sans-serif; 
+width:100%; 
+z-index:99999; 
+background: #fff;
+font-weight: bold;
+cursor: pointer;
+}
+
+.ccpw-header-ticker-fixedbar {
+position:fixed;    
+border-top: 1px solid #ccc;
+font-family: Arial, Helvetica, sans-serif; 
+width:100%; 
+z-index:99999; 
+background: #fff;
+font-weight: bold;
+cursor: pointer;
+}
+
+
+ul.marquee-content-items li{
+    float:left;
+    margin:0 10px;
+    list-style:none;
+}
+.ccpw-fixedbar {
+border-top: 1px solid #ccc;
+bottom: 0px!important; 
+ position:fixed;
+width:100%; 
+z-index:99999; 
+background: #fff;
+}
+
+ul.marquee-content-items li:after{
+    content: "|";
+    margin: 0 1em;
+}
+.coin-container img{
+    height:24px;
+   /* width: 20px;*/
+}
+.ticker td{
+    border: none;
+}
+.ccpw_widget .ccpw_table td{
+    border: none;
+}
+.ccpw_widget .ccpw_table tr{
+    border-bottom: 1px solid black;
+}
+.ccpw_table th{
+    border: none;
+}
+.ccpw_table span.name {
+    font-weight:bold;
+}
+.ccpw_table span.name {
+    font-size: 16px;
+    margin-left: 6px;
+}
+.ccpw_table span.coin_symbol{
+    font-size:14px;
+    margin-left: 6px; 
+}
+.ccpw-ticker-cont span.name {
+    font-size: 14px;
+    margin-left: 6px;
+}
+
+.ccpw-ticker-cont span.price {
+     font-size: 12px;
+    margin-left: 8px;
+}
+.ccpw_table  th, td{
+    border:0;
+    border-bottom:1px solid #cacaca!important;
+
+}
+.ccpw_table span.price {
+    font-size: 12px;
+    margin-left: 8px;
+}
+span.changes.up {
+    color: green;
+    margin-left: 3px;
+}
+span.changes.down {
+    color: red;
+    margin-left: 3px;
+}
+.image-coin{
+    width:40px;
+}
+.ccpw_icon img {
+    margin-left: 8px;
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+/* version 1.4 styles */
+
+.ccpw_table .ccpw_icon.ccpw_coin_logo{
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+}
+
+.ccpw_table .ccpw_icon.ccpw_coin_logo img{
+    height:32px;
+}
+.ccpw_table .ccpw_coin_info{
+ display: inline-block;
+    vertical-align: middle;
+    padding:8px 4px;
+}
+
+.ccpw_table tr td{
+    padding:8px 4px;
+}
+.tickercontainer {
+  /*  background-color: #ffffff;*/
+    margin-bottom: 2px;
+}
+@media only screen and (max-width: 500px) {
+.ccpw_coin_info .coin_symbol{
+    display:none;
+}
+}
+.single .content-car-heading::after, 
+.widget-title::after, 
+h3#reply-title::after, 
+h2.heading-bottom::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 150px;
+    height: 3px;
+}
+.widget-title, h3#reply-title, h2.heading-bottom {
+    font-size: 24px;
+    margin-top: 40px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #d5dadd;
+    position: relative;
+    font-weight: bold;
+}
+.breadcrumb a {
+    position: relative;
+    color: #e5c000;
+}
+.table-blog-affiliate {
+    width: 100%;
+}
+.comment-form .comment-form-author textarea,
+.comment-form .comment-form-author input{
+    border-color: #ffd600;
+}
+.comment-form-author i {
+    padding-top: 3px;
+}
+.post-details-bottom {
+    background: #f7f7f7 none repeat scroll 0 0;
+    border: 1px solid #d5dadd;
+}
+.related_blog_details {
+    background: white none repeat scroll 0 0;
+    padding: 15px 20px;
+}
+.related-posts .post-name a {
+    color: black;
+    line-height: 140%;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+.related-posts .post-author {
+    opacity: 0.85;
+}
+.related-posts .post-author > a {
+    display: inline;
+}
+.comment-form .form-submit input {
+    border: none;
+}
+.prev-post a span,
+.next-post a span {
+    color: #ffd600;
+}
+.donut-chart #donut-chart g g:nth-child(2) path {
+    fill: #6a7179;
+}
+.donut-chart #donut-chart g g:nth-child(3) path {
+    fill: #89929f;
+}
+.donut-chart #donut-chart g g:nth-child(4) path {
+    fill: #6cd086;
+}
+.donut-chart #donut-chart g g:nth-child(5) path {
+    fill: #2735b5;
+}
+.donut-chart #donut-chart g g:nth-child(6) path {
+    fill: #a8b3c5;
+}
+
+/* 9. ICO Listing Grid */
+#nav-ico-grid {
+    width: 100%;
+    z-index: 200;
+    clear: both;
+    border: 0 none;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    background: transparent;
+}
+header.header4 .right-side-social-actions .social-links.cryptic-ico-grid-social-links i{
+    color: #ffffff;
+}
+.cryptic-ico-grid-h1 {
+    z-index: 5;
+    white-space: normal;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 700;
+    font-family: Montserrat;
+    visibility: inherit;
+    transition: none 0s ease 0s;
+    text-align: center;
+    border-width: 0px;
+    margin: 0px;
+    padding: 10px 0px;
+    letter-spacing: 0px;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+    transform-origin: 50% 50% 0px;
+    color: #ffffff;
+    font-style: normal;
+    text-decoration: none;
+    background-color: transparent;
+    border-color: transparent;
+    border-style: none;
+    border-radius: 0 0 0 0px;
+}
+.cryptic_ico_grid_first_dir h3{
+    z-index: 6;
+    white-space: normal;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    color: rgb(234, 234, 234);
+    font-family: Montserrat;
+    visibility: inherit;
+    transition: none 0s ease 0s;
+    text-align: center;
+    border-width: 0px;
+    margin: 0px;
+    padding: 0px;
+    letter-spacing: 0px;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+    transform-origin: 50% 50% 0px;
+}
+.cryptic-ico-grid-btn {
+    z-index: 7;
+    white-space: nowrap;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-family: Montserrat;
+    background-color: rgb(108, 208, 134);
+    border-radius: 5px;
+    outline: medium none currentcolor;
+    box-shadow: rgb(153, 153, 153) 0px 0px 0px 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+    text-decoration: none;
+    visibility: inherit;
+    transition: none 0s ease 0s;
+    text-align: center;
+    border-width: 0px;
+    margin: 0px;
+    padding: 15px 35px;
+    letter-spacing: 0px;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+    transform-origin: 50% 50% 0px;
+}
+.blue-version .newsletter input[type="email"] {
+    border-radius: 3px;
+    height: 55px;
+    font-size: 15px;
+    border: 0 none;
+    float: left;
+    padding: 15px 25px;
+    width: 65%;
+    font-weight: 500;
+    margin-right: 20px;
+}
+.icondrops-shortcode .post.is-sticky .blog_custom_listings {
+    background: #fff3b2;
+}
+.cryptic_ico_listing_grid h2 {
+    color: #252525;
+    text-align: center;
+    font-family:Montserrat;
+    font-weight:700;
+    font-style:normal;
+}
+.mt-car-search .slider-state-select::after {
+    content: "\f107";
+    font-family: FontAwesome;
+    font-weight: 900;
+    color: rgba(85, 85, 85, 0.8);
+    right: 36px;
+    top: 22px;
+    height: 36px;
+    position: absolute;
+    pointer-events: none;
+    width: 40px;
+    background: #fff;
+    border-radius: 4px;
+    font-size: 25px;
+}
+.slider-state-select select.form-control {
+    cursor: pointer;
+}
+.cryptic-ico-list #DataTable-icondrops-active .ico-row .ico-icon {
+    margin-top: 0;
+}
+table.dataTable#DataTable-icondrops-active thead .sorting::after {
+    content: "";
+}
+.cryptic-ico-list div.dataTables_wrapper div.dataTables_filter input {
+    padding: 18px;
+}
+.list_title .parent-rating-star {
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+.posts-listings .blog_custom_listings {
+    padding: 30px 30px 20px 30px;
+}
+
+#user_email-error,
+#user_name-error,
+#user_message-error {
+    color:#252525;
+}
+
+/* */
+.cryptic_exchange h2 {
+    font-size: 40px;
+    color: #252525;
+    line-height: 50px;
+    text-align: center;
+    font-family:Montserrat;
+    font-weight:700;
+    font-style:normal;
+}
+.cryptic_exchange p{
+    color: #252525;
+}
+
+.cryptic_exchange_revolution h1{
+    font-size: 48px;
+    color: #ffffff;
+    line-height: 62px;
+    text-align: center;
+    font-family:Montserrat;
+    font-weight:400;
+    font-style:normal;
+}
+.cryptic_exchange_revolution h3{
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 42px;
+    text-align: center;
+    font-family:Montserrat;
+    font-weight:400;
+    font-style:normal;
+}
+.cryptic_exchange_revolution button {
+    background-color:#ffd600;
+    color:#252525;
+    border-radius: 4px;
+    border: none;
+}
