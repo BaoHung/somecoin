@@ -39,7 +39,7 @@ body {
 }
 
 #header {
-    opacity: 0;
+    display: none;
 }
 
 * {
@@ -596,7 +596,7 @@ h3.member01_name.light_name {
         height: auto;
     }
     #header {
-        opacity: 1;
+        display: block;
         position: fixed;
         z-index: 9;
         width: 100%;
