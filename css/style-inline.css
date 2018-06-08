@@ -126,6 +126,7 @@ body{
 .logo img,
 .navbar-header .logo img {
     max-width: 140px;
+    max-height: 50px;
 }
 ::selection{
     color: #ffffff;

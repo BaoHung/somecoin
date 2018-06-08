@@ -37,10 +37,84 @@
 		<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
 	<![endif]-->
 
-	<div id="loader"></div>
+	<div id="loader" style="z-index: 999;"></div>
 
 	<div id="header">
+		<header class="header4">
+			<nav class="navbar navbar-default" id="modeltheme-main-head">
+				<div class="container">
+					<div class="row" style="margin: auto 3em;">
+						<!-- LOGO -->
+						<div class="navbar-header">
+							<!-- NAVIGATION BURGER MENU -->
+							<!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+							 aria-controls="navbar">
+								<span class="sr-only"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button> -->
 
+							<h1 class="logo">
+								<a href="#">
+									<img src="img/logo.png" alt="Cryptic">
+								</a>
+							</h1>
+						</div>
+
+						<!-- NAV MENU -->
+						<div id="navbar" class="navbar-collapse collapse col-md-6">
+							<ul class="menu nav navbar-nav pull-left nav-effect nav-menu">
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor">
+									<a href="#slide-1">Home</a>
+								</li>
+								<li class="menu-item menu-item-type-custom menu-item-object-custom">
+									<a href="#detail">How it works</a>
+								</li>
+								<li class="menu-item menu-item-type-custom menu-item-object-custom">
+									<a href="#timeline">Roadmap</a>
+								</li>
+								<li class="menu-item menu-item-type-custom menu-item-object-custom">
+									<a href="#slide-3">Our Team</a>
+								</li>
+								<li class="menu-item menu-item-type-custom menu-item-object-custom">
+									<a href="#contact">Contact</a>
+								</li>
+							</ul>
+						</div>
+
+						<!-- RIGHT SIDE SOCIAL / ACTIONS BUTTONS -->
+						<div class="col-md-3 right-side-social-actions visibile_group">
+							<!-- SOCIAL LINKS -->
+							<ul class="social-links">
+								<li>
+									<a href="http://telegram.org/">
+										<!-- <i class="fa fa-telegram" aria-hidden="true"></i> -->
+										<i class="fa fa-paper-plane"></i>
+									</a>
+								</li>
+								<li>
+									<a href="http://facebook.com/">
+										<i class="fa fa-facebook"></i>
+									</a>
+								</li>
+								<li>
+									<a href="https://twitter.com/">
+										<i class="fa fa-twitter"></i>
+									</a>
+								</li>
+								<li>
+									<a href="http://plus.google.com/">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+			</nav>
+		</header>
 	</div>
 
 	<div id="preload">
@@ -51,7 +125,7 @@
 		<img src="img/bcg_slide-4.jpg"> -->
 	</div>
 
-	<main>
+	<main id="main">
 
 		<section id="slide-1" class="homeSlide">
 			<div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-1">
@@ -493,7 +567,7 @@
 									</span>
 								</div>
 								<div class="spacer_40"></div>
-								<div class="row">
+								<div id="contact" class="row">
 									<div class="col-sm-8">
 										<div class="title-subtile-holder wow fadeIn text_left">
 											<h1 class="section-title light_title">CONTACT US</h1>
@@ -502,8 +576,7 @@
 										<div class="spacer_80"></div>
 										<div role="form" class="wpcf7">
 											<div class="screen-reader-response"></div>
-											<form action="#" method="POST" class="wpcf7-form"
-											 novalidate="novalidate" />
+											<form action="#" method="POST" class="wpcf7-form" novalidate="novalidate" />
 											<div style="display: none;">
 												<input type="hidden" name="_wpcf7" value="16562" />
 												<input type="hidden" name="_wpcf7_version" value="5.0.1" />
@@ -544,8 +617,7 @@
 										<div class="wpb_single_image vc_align_center">
 											<figure class="wpb_wrapper vc_figure">
 												<div class="vc_single_image-wrapper   vc_box_border_grey">
-													<img width="554" height="750" src="img/man12.png" class="vc_single_image-img attachment-full" alt=""
-													/>
+													<img width="554" height="750" src="img/man12.png" class="vc_single_image-img attachment-full" alt="" />
 												</div>
 											</figure>
 										</div>

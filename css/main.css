@@ -167,6 +167,12 @@ main {
     left: 0;
 }
 
+#header {
+    position: fixed;
+    z-index: 9;
+    width: 100%;
+}
+
 .bcg {
     background-size: cover;
     height: 100%;
