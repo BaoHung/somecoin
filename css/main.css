@@ -38,6 +38,10 @@ body {
     line-height: 1.4;
 }
 
+#header {
+    opacity: 0;
+}
+
 * {
     word-wrap: break-word;
 }
@@ -165,12 +169,6 @@ main {
     position: absolute;
     top: 0;
     left: 0;
-}
-
-#header {
-    position: fixed;
-    z-index: 9;
-    width: 100%;
 }
 
 .bcg {
@@ -596,6 +594,12 @@ h3.member01_name.light_name {
     body,
         {
         height: auto;
+    }
+    #header {
+        opacity: 1;
+        position: fixed;
+        z-index: 9;
+        width: 100%;
     }
     .bcg {
         background-position: center center;
