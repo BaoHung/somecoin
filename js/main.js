@@ -84,7 +84,11 @@
 		.listen(100);
 
 
-
+	$('#navbar ul').slicknav({
+		parentTag: 'div',
+		label: '',
+		closeOnClick: true
+	});
 })(jQuery);
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
@@ -93,9 +97,15 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 
 		document.querySelector(this.getAttribute('href')).scrollIntoView({
 			behavior: 'smooth',
-			block: "start"
+			block: 'start',
+			inline: 'nearest'
 		});
-		// document.querySelector(this.getAttribute('href')).scrollTop += 300;
-		
+
+
+		// var scrolledY = window.scrollY;
+		// if (scrolledY) {
+		// 	window.scroll(0, scrolledY - 200);
+		// }
+
 	});
 });
