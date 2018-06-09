@@ -89,23 +89,45 @@
 		label: '',
 		closeOnClick: true
 	});
+
+	// smooth scroll
+	$('a[href*="#"]')
+		.not('[href="#"]')
+		.not('[href="#0"]')
+		// Remove links that don't actually link to anything
+		.click(function (event) {
+			if (
+				location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+				&&
+				location.hostname == this.hostname
+			) {
+				// Figure out element to scroll to
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+				// Does a scroll target exist?
+				if (target.length) {
+					// Only prevent default if animation is actually gonna happen
+					event.preventDefault();
+
+					var offset = $window.width() < 768 ? $('.slicknav_menu').height() - $('.slicknav_menu>ul').height() : $('#header').height();
+					var scrollTop = target.offset().top - offset;
+
+					$('html, body').animate({
+						scrollTop: scrollTop
+					}, 1000)
+				}
+			}
+		});
 })(jQuery);
 
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-	anchor.addEventListener('click', function (e) {
-		e.preventDefault();
+// document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+// 	anchor.addEventListener('click', function (e) {
+// 		e.preventDefault();
 
-		document.querySelector(this.getAttribute('href')).scrollIntoView({
-			behavior: 'smooth',
-			block: 'start',
-			inline: 'nearest'
-		});
-
-
-		// var scrolledY = window.scrollY;
-		// if (scrolledY) {
-		// 	window.scroll(0, scrolledY - 200);
-		// }
-
-	});
-});
+// 		document.querySelector(this.getAttribute('href')).scrollIntoView({
+// 			behavior: 'smooth',
+// 			block: 'start',
+// 			inline: 'nearest'
+// 		});
+// 	});
+// });
