@@ -110,7 +110,7 @@
 					event.preventDefault();
 
 					var offset = $window.width() < 768 ? $('.slicknav_menu').height() - $('.slicknav_menu>ul').height() : $('#header').height();
-					var scrollTop = target.offset().top - offset;
+					var scrollTop = target.offset().top - offset + 1;
 
 					$('html, body').animate({
 						scrollTop: scrollTop
