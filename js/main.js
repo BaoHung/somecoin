@@ -119,9 +119,44 @@
 			}
 		});
 
-	// manual carousel controls
-	$('.next').click(function () { $('.carousel').carousel('next'); return false; });
-	$('.prev').click(function () { $('.carousel').carousel('prev'); return false; });
+	// INIT Swiper
+	$(document).ready(function () {
+		//initialize swiper when document ready
+		var mySwiper = new Swiper('.swiper-container', {
+			// Optional parameters
+			direction: 'horizontal',
+			loop: false,
+			slidesPerView: 3,
+			spaceBetween: 50,
+			// init: false,
+			pagination: {
+				el: '.swiper-pagination',
+				type: 'fraction',
+			},
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+			breakpoints: {
+				1024: {
+					slidesPerView: 3,
+					spaceBetween: 0,
+				},
+				768: {
+					slidesPerView: 2,
+					spaceBetween: 0,
+				},
+				640: {
+					slidesPerView: 1,
+					spaceBetween: 0,
+				},
+				320: {
+					slidesPerView: 1,
+					spaceBetween: 0,
+				}
+			}
+		})
+	});
 })(jQuery);
 
 // document.querySelectorAll('a[href^="#"]').forEach(anchor => {
