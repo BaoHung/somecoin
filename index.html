@@ -19,8 +19,8 @@
 	<link rel='stylesheet' href='css/style-inline.css'>
 	<link rel='stylesheet' href='css/animate.css'>
 	<link rel="stylesheet" href="css/responsive.css">
-	<link rel="stylesheet" href="css/normalize.css">
 	<link rel='stylesheet' href='css/reset.min.css'>
+	<link rel="stylesheet" href="css/normalize.css">
 	<link rel='stylesheet' href='css/font-awesome.min.css'>
 	<link rel='stylesheet' href='css/cryptic.css'>
 	<link rel='stylesheet' href='css/slicknav.min.css'>
@@ -44,11 +44,11 @@
 		<header class="header4">
 			<nav class="navbar navbar-default" id="modeltheme-main-head">
 				<div class="container">
-					<div class="row" style="margin: auto 3em;">
-						<!-- LOGO -->
-						<div class="navbar-header">
-							<!-- NAVIGATION BURGER MENU -->
-							<!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+					<!-- <div class="row" style="margin: auto 3em;"> -->
+					<!-- LOGO -->
+					<div class="navbar-header">
+						<!-- NAVIGATION BURGER MENU -->
+						<!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
 							 aria-controls="navbar">
 								<span class="sr-only"></span>
 								<span class="icon-bar"></span>
@@ -56,37 +56,65 @@
 								<span class="icon-bar"></span>
 							</button> -->
 
-							<h1 class="logo">
-								<a href="#">
-									<img src="img/logo.png" alt="Cryptic">
-								</a>
-							</h1>
-						</div>
+						<h1 class="logo">
+							<a href="index.html">
+								<img src="img/logo.png" alt="Cryptic">
+							</a>
+						</h1>
+					</div>
 
-						<!-- NAV MENU -->
-						<div id="navbar" class="navbar-collapse collapse col-md-6">
-							<ul class="menu nav navbar-nav pull-left nav-effect nav-menu">
-								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor">
-									<a href="#slide-1">Home</a>
-								</li>
-								<li class="menu-item menu-item-type-custom menu-item-object-custom">
+					<!-- NAV MENU -->
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="menu nav navbar-nav pull-left nav-effect nav-menu">
+							<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item current_page_item current-menu-ancestor current-menu-parent current_page_parent current_page_ancestor">
+								<a href="#slide-1">Home</a>
+							</li>
+							<li class="menu-item menu-item-type-custom menu-item-object-custom">
+								<a href="#slide-2">White Paper</a>
+							</li>
+							<!-- <li class="menu-item menu-item-type-custom menu-item-object-custom">
 									<a href="#detail">How it works</a>
-								</li>
-								<li class="menu-item menu-item-type-custom menu-item-object-custom">
-									<a href="#timeline">Roadmap</a>
-								</li>
-								<li class="menu-item menu-item-type-custom menu-item-object-custom">
-									<a href="#slide-3">Our Team</a>
-								</li>
-								<li class="menu-item menu-item-type-custom menu-item-object-custom">
+								</li> -->
+							<li class="menu-item menu-item-type-custom menu-item-object-custom">
+								<a href="#timeline">Roadmap</a>
+							</li>
+							<li class="menu-item menu-item-type-custom menu-item-object-custom">
+								<a href="#slide-3">Our Team</a>
+							</li>
+							<li class="menu-item menu-item-type-custom menu-item-object-custom">
+								<a href="#slide-3">FAQ</a>
+							</li>
+							<li class="menu-item menu-item-type-custom menu-item-object-custom">
+								<a href="#slide-3">Event</a>
+							</li>
+							<!-- <li class="menu-item menu-item-type-custom menu-item-object-custom">
 									<a href="#contact">Contact</a>
-								</li>
-							</ul>
-						</div>
+								</li> -->
+						</ul>
+					</div>
+					<!-- </div> -->
+				</div>
+			</nav>
+		</header>
+	</div>
 
-						<!-- RIGHT SIDE SOCIAL / ACTIONS BUTTONS -->
-						<div class="col-md-3 right-side-social-actions visibile_group">
-							<!-- SOCIAL LINKS -->
+	<div id="preload">
+		<!-- <img src="img/bcg_slide-1.jpg"> -->
+		<img src="img/bcg_slide-1.jpg">
+		<img src="img/bcg_slide-2.jpg">
+		<!-- <img src="img/bcg_slide-3.jpg">
+		<img src="img/bcg_slide-4.jpg"> -->
+	</div>
+
+	<main id="main">
+
+		<section id="slide-1" class="homeSlide">
+			<div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-1">
+				<div class="hsContainer">
+					<div id="social" class="hsContent" data-center="left: -4%; top: 80%; opacity: 1" data-top="bottom: 50%; opacity: 0" data-anchor-target="#slide-1 ul">
+						<!-- <h2>AWEsome Coin</h2> -->
+						<!-- SOCIAL LINKS -->
+						<div class="right-side-social-actions visibile_group">
 							<ul class="social-links">
 								<li>
 									<a href="http://telegram.org/">
@@ -111,28 +139,74 @@
 								</li>
 							</ul>
 						</div>
-
 					</div>
-				</div>
-			</nav>
-		</header>
-	</div>
-
-	<div id="preload">
-		<!-- <img src="img/bcg_slide-1.jpg"> -->
-		<img src="img/bcg_slide-1.jpg">
-		<img src="img/bcg_slide-2.jpg">
-		<!-- <img src="img/bcg_slide-3.jpg">
-		<img src="img/bcg_slide-4.jpg"> -->
-	</div>
-
-	<main id="main">
-
-		<section id="slide-1" class="homeSlide">
-			<div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#slide-1">
-				<div class="hsContainer">
-					<div class="hsContent" data-center="left: 65%; bottom: 45%; opacity: 1" data-top="bottom: 50%; opacity: 0" data-anchor-target="#slide-1 h2">
+					<!-- <div class="hsContent" data-center="left: 65%; bottom: 45%; opacity: 1" data-top="bottom: 50%; opacity: 0" data-anchor-target="#slide-1 h2">
 						<h2>AWEsome Coin</h2>
+					</div> -->
+				</div>
+			</div>
+		</section>
+
+		<section id="about" class="homeSlide">
+			<div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-bottom-top="background-position: 50% 100px;"
+			 data-anchor-target="#about">
+				<div class="swiper-slide" data-hash="features" id="features" site-theme="bright">
+
+					<div class="swiper-container feature__container">
+						<div class="container">
+							<div class="homeSlide__header">
+								<h2 class="homeSlide__name">
+									EzChain – Blockchain solution for Fintech, logistic and ecommerce.
+								</h2>
+								<p class="homeSlide__description">
+									Our vision is to create and design the most effective and suitable blockchain for
+									<strong>daily transaction, more secure, transparent but free for everyone.</strong>
+								</p>
+							</div>
+							<div class="homeSlide__content">
+								<div class="features__hilights">
+									<!-- <h2>Hilighted features</h2>
+									<p>What makes us different</p> -->
+									<div class="features__hilightsListing">
+										<div class="row">
+											<div class="feature module">
+												<div class="feature__wrapper">
+
+													<!-- <h5 class="feature__name">Customer Loyaty Services</h5> -->
+													<p class="feature__description">
+														EzChain is based on Ethereum but it can solve its scalability problem. On EzChain, user can enjoin 2 outstanding features:
+														<strong>zero transfer fee and 2 seconds transaction time.</strong>
+													</p>
+												</div>
+											</div>
+											<div class="feature module">
+												<div class="feature__wrapper">
+													<!-- <h5 class="feature__name">Data Security with Blockchain</h5> -->
+													<p class="feature__description">
+														Via its smart contracts, EzChain
+														<strong> guarantees the security.</strong>
+													</p>
+												</div>
+											</div>
+											<div class="feature module">
+												<div class="feature__wrapper">
+													<p class="feature__description">
+														Based on Ethereum, EzChain supports all EVM compatible smart-contracts, protocols, atomic cross-chain token transfer. In
+														the near future, when sharding, child-chain and private chain are applied to EzChain, the
+														<strong>
+															speed of transaction will be reduced more, the number of transaction per second will increase but the fee will still stay
+															completely zero;
+														</strong> EzChain will become the most ideal blockchain for building dApps, token issuances, token integration.
+													</p>
+												</div>
+											</div>
+
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
 					</div>
 				</div>
 			</div>
@@ -142,23 +216,20 @@
 			<div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-bottom-top="background-position: 50% 100px;"
 			 data-anchor-target="#slide-2">
 				<div class="hsContainer">
-					<div class="hsContent" data-center="left: 41%; opacity: 1" data-center-top="opacity: 0" data--100-bottom="opacity: 0;" data-anchor-target="#slide-2">
+					<div class="hsContent" data-center="left: 27%; opacity: 1" data-center-top="opacity: 0" data--100-bottom="opacity: 0;" data-anchor-target="#slide-2">
 						<!-- <h2>that is also impressive.</h2> -->
 						<h2>
-							<a class="btn" href="#0" title="">WHITEPAPER</a>
+							<a class="btn" href="#">Read our white paper</a>
 						</h2>
 					</div>
 				</div>
 			</div>
 		</section>
-
+		<!-- 
 		<section id="detail" class="homeSlide">
 			<div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-bottom-top="background-position: 50% 100px;"
 			 data-anchor-target="#detail">
 				<div class="hsContainer">
-					<!-- <div class="hsContent" data-center="left: 41%; opacity: 1" data-center-top="opacity: 0" data--100-bottom="opacity: 0;" data-anchor-target="#slide-2">
-						<h2>that is also impressive.</h2>
-					</div> -->
 
 					<div class="about_cryptic_ico padding_80 text-center">
 						<div class="container">
@@ -290,7 +361,7 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
 		<section id="timeline" class="homeSide">
 			<div class="bcg" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-bottom-top="background-position: 50% 100px;"
@@ -300,7 +371,7 @@
 						<h2>Roadmap</h2>
 					</div> -->
 					<h2>Roadmap</h2>
-					<div class="row section roadmap active">
+					<!-- <div class="row section roadmap active">
 						<div class="inner-cont">
 							<div class="milestone col-sm-3 completed">
 								<div class="text-container">
@@ -386,6 +457,119 @@
 								</div>
 								<span class="date">2019-07-15</span>
 								<div class="circle"></div>
+							</div>
+						</div>
+					</div> -->
+
+
+					<div class="roadmap">
+						<div class="container left">
+							<div class="content">
+								<h2>July 2018</h2>
+								<p>Community Building</p>
+							</div>
+						</div>
+						<div class="container right">
+							<div class="content">
+								<h2>August 2018</h2>
+								<p>Private Sate</p>
+							</div>
+						</div>
+						<div class="container left">
+							<div class="content">
+								<h2>September 2018</h2>
+								<p>Public Sale</p>
+							</div>
+						</div>
+						<div class="container right">
+							<div class="content">
+								<h2>October 2018</h2>
+								<p>Media running</p>
+							</div>
+						</div>
+						<div class="container left">
+							<div class="content">
+								<h2>November 2018</h2>
+								<p>Block Explorer. Test net.</p>
+							</div>
+						</div>
+						<div class="container right">
+							<div class="content">
+								<h2>December 2018</h2>
+								<p>Main Net Launch</p>
+							</div>
+						</div>
+
+						<div class="container left">
+							<div class="content">
+								<h2>January 2019</h2>
+								<p>Launch Wallet App.</p>
+							</div>
+						</div>
+						<div class="container right">
+							<div class="content">
+								<h2>February 2019</h2>
+								<p>Staking</p>
+							</div>
+						</div>
+						<div class="container left">
+							<div class="content">
+								<h2>March 2019</h2>
+								<p>Listed on Coinmarketcap</p>
+							</div>
+						</div>
+						<div class="container right">
+							<div class="content">
+								<h2>April 2019</h2>
+								<p>Launch first dApp</p>
+							</div>
+						</div>
+						<div class="container left">
+							<div class="content">
+								<h2>May 2019</h2>
+								<p>Investment on ecommerce, logistic start ups</p>
+							</div>
+						</div>
+						<div class="container right">
+							<div class="content">
+								<h2>June 2019</h2>
+								<p>Upgrade System</p>
+							</div>
+						</div>
+						<div class="container left">
+							<div class="content">
+								<h2>July 2019</h2>
+								<p>Public technical paper</p>
+							</div>
+						</div>
+						<div class="container right">
+							<div class="content">
+								<h2>August 2019</h2>
+								<p>Launch 2nd dApp</p>
+							</div>
+						</div>
+						<div class="container left">
+							<div class="content">
+								<h2>September 2019</h2>
+								<p>Seminars</p>
+							</div>
+						</div>
+						<div class="container right">
+							<div class="content">
+								<h2>October 2019</h2>
+								<p>Support blockchain community</p>
+							</div>
+						</div>
+						<div class="container left">
+							<div class="content">
+								<h2>November 2019</h2>
+								<p>Dex intergration</p>
+							</div>
+						</div>
+						<div class="container right">
+							<div class="content">
+								<h2>December 2019</h2>
+								<p>Event</p>
 							</div>
 						</div>
 					</div>
@@ -557,7 +741,7 @@
 										</div>
 									</div>
 								</div>
-
+								<!-- 
 								<div class="spacer_40"></div>
 								<div class="vc_separator wpb_content_element vc_separator_align_center vc_sep_width_100 vc_sep_pos_align_center vc_separator_no_text  wpb_fadeIn fadeIn wpb_fadeIn fadeIn">
 									<span class="vc_sep_holder sep_holder vc_sep_holder_l">
@@ -623,18 +807,10 @@
 											</figure>
 										</div>
 									</div>
-								</div>
+								</div> -->
 							</div>
 						</div>
 					</div>
-
-
-					<!-- <div class="module"></div>
-					<div class="module"></div>
-					<div class="module"></div>
-					<div class="module"></div>
-					<div class="module"></div>
-					<div class="module"></div> -->
 				</div>
 
 			</div>
@@ -656,7 +832,6 @@
 
 	<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script> -->
 	<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-
 	<script src="js/imagesloaded.js"></script>
 	<script src="js/enquire.min.js"></script>
 	<script src="js/skrollr.js"></script>

@@ -118,6 +118,10 @@
 				}
 			}
 		});
+
+	// manual carousel controls
+	$('.next').click(function () { $('.carousel').carousel('next'); return false; });
+	$('.prev').click(function () { $('.carousel').carousel('prev'); return false; });
 })(jQuery);
 
 // document.querySelectorAll('a[href^="#"]').forEach(anchor => {
