@@ -9,7 +9,6 @@
 */
 
 (function ($) {
-
 	// Setup variables
 	$window = $(window);
 	$slide = $('.homeSlide');
@@ -82,14 +81,14 @@
 
 	enquire.register("screen and (min-width : 768px)", initAdjustWindow(), false)
 		.listen(100);
+})(jQuery);
 
-
-	$('#navbar ul').slicknav({
-		parentTag: 'div',
-		label: '',
-		closeOnClick: true
+$(document).ready(function () {
+	$("body").niceScroll({
+		cursorcolor: "#692193",
+		cursorborder: "0px",
+		zindex: "99"
 	});
-
 	// smooth scroll
 	$('a[href*="#"]')
 		.not('[href="#"]')
@@ -118,51 +117,63 @@
 				}
 			}
 		});
-
-	// INIT Swiper
-	$(document).ready(function () {
-		//initialize swiper when document ready
-		var mySwiper = new Swiper('.swiper-container', {
-			// Optional parameters
-			direction: 'horizontal',
-			loop: false,
-			slidesPerView: 3,
-			spaceBetween: 50,
-			// init: false,
-			pagination: {
-				el: '.swiper-pagination',
-				type: 'fraction',
-			},
-			navigation: {
-				nextEl: '.swiper-button-next',
-				prevEl: '.swiper-button-prev',
-			},
-			breakpoints: {
-				1024: {
-					slidesPerView: 3,
-					spaceBetween: 0,
-				},
-				768: {
-					slidesPerView: 2,
-					spaceBetween: 0,
-				},
-				500: {
-					slidesPerView: 1,
-					spaceBetween: 0,
-				}
-			}
-		})
+	$('#navbar ul').slicknav({
+		parentTag: 'div',
+		label: '',
+		closeOnClick: true
 	});
-})(jQuery);
+	// INIT Swiper
+	var mySwiper = new Swiper('.swiper-container', {
+		// Optional parameters
+		direction: 'horizontal',
+		loop: true,
+		slidesPerView: 4,
+		// autoHeight: true,
+		// spaceBetween: 50,
+		autoplay: {
+			delay: 3000,
+		},
+		// init: false,
+		pagination: {
+			el: '.swiper-pagination'
+			// type: 'fraction',
+		},
+		// navigation: {
+		// 	nextEl: '.swiper-button-next',
+		// 	prevEl: '.swiper-button-prev',
+		// },
+		breakpoints: {
+			1024: {
+				slidesPerView: 4,
+				spaceBetween: 0,
+			},
+			768: {
+				slidesPerView: 2,
+				spaceBetween: 0,
+			},
+			500: {
+				slidesPerView: 1,
+				spaceBetween: 0,
+			}
+		}
+	});
 
-// document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-// 	anchor.addEventListener('click', function (e) {
-// 		e.preventDefault();
+	// FAQ
+	var acc = document.getElementsByClassName("accordion");
+	var i;
 
-// 		document.querySelector(this.getAttribute('href')).scrollIntoView({
-// 			behavior: 'smooth',
-// 			block: 'start',
-// 			inline: 'nearest'
-// 		});
-// 	});
+	for (i = 0; i < acc.length; i++) {
+		acc[i].addEventListener("click", function () {
+			this.classList.toggle("active");
+			var panel = this.nextElementSibling;
+			if (panel.style.maxHeight) {
+				panel.style.maxHeight = null;
+			} else {
+				panel.style.maxHeight = panel.scrollHeight + "px";
+			}
+		});
+	}
+});
+// $(window).on('resize', function () {
+// 	$("#body").getNiceScroll().resize();
 // });
