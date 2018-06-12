@@ -296,14 +296,11 @@ a:hover {
 
 #about {
     height: auto !important;
+    background: linear-gradient(0deg, #000 -5%, #fff 105%)
 }
 
 #about * {
     color: #333333;
-}
-
-#about .bcg {
-    background-color: antiquewhite;
 }
 
 #about .container {
@@ -545,7 +542,7 @@ a:hover {
 
 #timeline {
     /* background-color: #474e5d; */
-    background: linear-gradient(140deg, #000 0%, #faebd7 100%);
+    background: linear-gradient(140deg, #000 10%, #fff 150%);
     /* padding: 4%; */
     height: auto;
 }
