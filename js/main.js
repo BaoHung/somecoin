@@ -146,11 +146,7 @@
 					slidesPerView: 2,
 					spaceBetween: 0,
 				},
-				640: {
-					slidesPerView: 1,
-					spaceBetween: 0,
-				},
-				320: {
+				500: {
 					slidesPerView: 1,
 					spaceBetween: 0,
 				}
