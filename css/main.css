@@ -788,6 +788,19 @@ h5.member01_position {
     color: #fff;
 }
 
+.memeber01-img-holder {
+    border-radius: 50%;
+}
+
+.memeber01-img-holder img {
+    transform: none;
+}
+
+.memeber01-img-holder img:hover {
+    transform: none;
+    opacity: 1;
+}
+
 /* FAQ */
 
 #faq {
