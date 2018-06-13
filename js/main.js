@@ -132,6 +132,7 @@ $(document).ready(function () {
 		autoplay: {
 			delay: 3000,
 		},
+		preventClicks: false,
 		// init: false,
 		pagination: {
 			el: '.swiper-pagination'
