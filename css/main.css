@@ -269,7 +269,7 @@ a:hover {
 
 .right-side-social-actions .social-links i {
     color: #777777;
-    font-size: 22px;
+    font-size: 1.5em;
 }
 
 #slide-1 #social {
@@ -780,6 +780,14 @@ h5.member01_position {
     color: white;
 }
 
+.member01_social a:hover {
+    background-color: #000;
+}
+
+.member01_social a:hover i::before {
+    color: #fff;
+}
+
 /* FAQ */
 
 #faq {
@@ -854,6 +862,10 @@ h5.member01_position {
 #news article.single-post {
     background-color: #fff;
     margin-bottom: 10% !important;
+}
+
+#news .blog-posts-shortcode .time-n-date {
+    background: #fff !important;
 }
 
 #news a:hover {
