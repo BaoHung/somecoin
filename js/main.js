@@ -84,11 +84,13 @@
 })(jQuery);
 
 $(document).ready(function () {
-	$("body").niceScroll({
-		cursorcolor: "#692193",
-		cursorborder: "0px",
-		zindex: "99"
-	});
+	if ($window.width() >= 768)
+		$("body").niceScroll({
+			cursorcolor: "#692193",
+			cursorborder: "0px",
+			zindex: "99"
+		});
+
 	// smooth scroll
 	$('a[href*="#"]')
 		.not('[href="#"]')

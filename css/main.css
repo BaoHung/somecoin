@@ -839,20 +839,21 @@ h5.member01_position {
 
 /* NEWS */
 
-/* #news h2 {
+#news h1 {
     color: #fff;
-} */
+}
 
 #news {
     height: auto !important;
-    background-color: #fff;
+    /* background-color: #fff; */
     /* background: linear-gradient(0deg, #000 0%, #fff 100%); */
-    /* background: url('../img/shooting-stars.jpg') no-repeat center center; */
+    background: url('../img/shooting-stars.jpg') no-repeat center center;
     padding: 3% 0;
 }
 
-#news article.single-post{
-    margin-bottom: 30% !important;
+#news article.single-post {
+    background-color: #fff;
+    margin-bottom: 10% !important;
 }
 
 /* ==========================================================================
